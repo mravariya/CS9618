@@ -7,9 +7,19 @@
 
         How devices share data from LANs to the global internet, including models, hardware, and addressing.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Communication        |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Networks Including the… |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Purpose/benefits of network devices; LAN vs WAN; client–server vs peer-to-peer (roles, pros/cons, justify).
 - Thin vs thick client; bus, star, mesh, hybrid topologies; packet paths; justify topology.
@@ -32,6 +42,12 @@
 - Video conferencing
 - IoT
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Networks Including the Internet](subtopics/networks-including-the-internet/notes.md) · [examples](subtopics/networks-including-the-internet/examples.md) · [exercises](subtopics/networks-including-the-internet/exercises.md)
+        - **Networks Including the Internet** — [notes](subtopics/networks-including-the-internet/notes.md) · [examples](subtopics/networks-including-the-internet/examples.md) · [exercises](subtopics/networks-including-the-internet/exercises.md) · [solutions](subtopics/networks-including-the-internet/solutions.md) · [animation](subtopics/networks-including-the-internet/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

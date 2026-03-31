@@ -7,9 +7,23 @@
 
         Computational thinking skills and clear algorithm design using pseudocode, flowcharts, and refinement.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Algorithm Design a   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Computational Thinking… |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Algorithms            |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Abstraction: purpose, benefits, modelling essentials only.
 - Decomposition into sub-problems and modules (procedures/functions).
@@ -29,7 +43,13 @@
 - Business processes
 - Scientific computing
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Computational Thinking Skills](subtopics/computational-thinking-skills/notes.md) · [examples](subtopics/computational-thinking-skills/examples.md) · [exercises](subtopics/computational-thinking-skills/exercises.md)
-- [Algorithms](subtopics/algorithms/notes.md) · [examples](subtopics/algorithms/examples.md) · [exercises](subtopics/algorithms/exercises.md)
+        - **Computational Thinking Skills** — [notes](subtopics/computational-thinking-skills/notes.md) · [examples](subtopics/computational-thinking-skills/examples.md) · [exercises](subtopics/computational-thinking-skills/exercises.md) · [solutions](subtopics/computational-thinking-skills/solutions.md) · [animation](subtopics/computational-thinking-skills/animation.md) · `animations/scene.py`
+- **Algorithms** — [notes](subtopics/algorithms/notes.md) · [examples](subtopics/algorithms/examples.md) · [exercises](subtopics/algorithms/exercises.md) · [solutions](subtopics/algorithms/solutions.md) · [animation](subtopics/algorithms/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

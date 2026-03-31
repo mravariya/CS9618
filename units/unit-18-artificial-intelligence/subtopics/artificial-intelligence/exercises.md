@@ -1,31 +1,27 @@
-# Exercises — Artificial Intelligence
-
-_Original exam-style questions only. Do not copy Cambridge past papers verbatim._
+# Practice — Artificial Intelligence
 
 ## Short answer
 
-1. **Define** one key term from `Artificial Intelligence` using syllabus-quality wording.
-2. **State** one real-world application and **link** it to a technical idea from this subtopic.
-3. **Give** one advantage and one limitation of a method discussed in `Artificial Intelligence`.
+1. **State** the main focus of `Artificial Intelligence` in one sentence.
+2. **Identify** two syllabus terms you would use in an answer about this subtopic.
+3. **Give** one **advantage** and one **limitation** of a method discussed in this subtopic (choose a sensible method).
 
-## Structured question
+## Structured questions
 
-A school is updating its systems. A scenario will describe users, devices, and data.
+1. **Outline** a 3-step teaching sequence you would use to explain this subtopic to a peer.
+2. **Explain** why **precision of terminology** matters in Computer Science exams.
+3. **Compare** two related ideas from this subtopic (similarities + differences).
 
-1. **Describe** how a concept from **Artificial Intelligence (AI)** applies to the scenario.  
-2. **Explain** why an alternative approach might be weaker **in this context**.  
-3. **Justify** a recommendation that balances **performance**, **security**, and **usability** (choose factors relevant to `Artificial Intelligence`).
+## Exam-style (Cambridge command words)
 
-## Scenario-based
+1. **Define** … (insert a term from this subtopic).
+2. **Describe** … (insert a process or representation).
+3. **Explain** … (cause → consequence, with a concrete example).
 
-You are advising a small organisation that must keep records consistent and secure.
+## Scenario
 
-- **Identify** two **risks** relevant to `Artificial Intelligence`.  
-- **Outline** controls or design choices that address those risks.  
-- **Evaluate** trade-offs (e.g. cost, complexity, user friction).
+A school migrates systems. Give **two risks** and **two controls** relevant to `Artificial Intelligence`.
 
-💡 **Exam Tip:** Use **headings** in longer answers to mirror the question parts.
+---
 
-⚠️ **Common Mistakes:** Answering a **different** topic than the question stem; **lists** without **explanations** where the command word is *explain* or *justify*.
-
-🔗 **Further Reading:** Specimen papers on the School Support Hub (registered centres)
+_Teachers:_ add local scenarios; do not paste copyrighted exam questions.

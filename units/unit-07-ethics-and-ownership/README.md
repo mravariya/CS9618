@@ -7,9 +7,19 @@
 
         Professional responsibility, intellectual property, licensing, and the societal impact of computing and AI.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Ethics and Ownersh   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Ethics and Ownership  |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Need/purpose of ethics for computing professionals; professional bodies (e.g. BCS, IEEE).
 - Ethical vs unethical impact in scenarios; copyright; licence types and justification (FSF, OSI, shareware, commercial).
@@ -27,6 +37,12 @@
 - Data consent
 - Responsible AI deployment
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Ethics and Ownership](subtopics/ethics-and-ownership/notes.md) · [examples](subtopics/ethics-and-ownership/examples.md) · [exercises](subtopics/ethics-and-ownership/exercises.md)
+        - **Ethics and Ownership** — [notes](subtopics/ethics-and-ownership/notes.md) · [examples](subtopics/ethics-and-ownership/examples.md) · [exercises](subtopics/ethics-and-ownership/exercises.md) · [solutions](subtopics/ethics-and-ownership/solutions.md) · [animation](subtopics/ethics-and-ownership/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

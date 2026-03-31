@@ -7,9 +7,27 @@
 
         How numbers, text, images, sound, and compressed data are stored as bits, and how choices affect size and quality.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Information Repres   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Data Representation   |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Multimedia — Graphics … |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Compression           |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Understand binary magnitudes and binary vs decimal prefixes (kibi/kilo, mebi/mega, gibi/giga, tebi/tera).
 - Use binary, denary, hexadecimal, BCD; one’s and two’s complement; convert between bases/representations.
@@ -36,8 +54,14 @@
 - Game assets
 - Mobile bandwidth
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Data Representation](subtopics/data-representation/notes.md) · [examples](subtopics/data-representation/examples.md) · [exercises](subtopics/data-representation/exercises.md)
-- [Multimedia — Graphics and Sound](subtopics/multimedia-graphics-and-sound/notes.md) · [examples](subtopics/multimedia-graphics-and-sound/examples.md) · [exercises](subtopics/multimedia-graphics-and-sound/exercises.md)
-- [Compression](subtopics/compression/notes.md) · [examples](subtopics/compression/examples.md) · [exercises](subtopics/compression/exercises.md)
+        - **Data Representation** — [notes](subtopics/data-representation/notes.md) · [examples](subtopics/data-representation/examples.md) · [exercises](subtopics/data-representation/exercises.md) · [solutions](subtopics/data-representation/solutions.md) · [animation](subtopics/data-representation/animation.md) · `animations/scene.py`
+- **Multimedia — Graphics and Sound** — [notes](subtopics/multimedia-graphics-and-sound/notes.md) · [examples](subtopics/multimedia-graphics-and-sound/examples.md) · [exercises](subtopics/multimedia-graphics-and-sound/exercises.md) · [solutions](subtopics/multimedia-graphics-and-sound/solutions.md) · [animation](subtopics/multimedia-graphics-and-sound/animation.md) · `animations/scene.py`
+- **Compression** — [notes](subtopics/compression/notes.md) · [examples](subtopics/compression/examples.md) · [exercises](subtopics/compression/exercises.md) · [solutions](subtopics/compression/solutions.md) · [animation](subtopics/compression/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

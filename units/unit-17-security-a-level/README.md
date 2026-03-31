@@ -7,9 +7,19 @@
 
         Modern cryptography, secure channels, and trust through certificates and signatures.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Security (A Level)   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Encryption, Protocols … |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Symmetric vs asymmetric; keys, plaintext/ciphertext; private messaging and verified public messages.
 - Quantum cryptography awareness; SSL/TLS purpose and use cases.
@@ -27,6 +37,12 @@
 - Email signing
 - VPN concepts
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Encryption, Protocols and Digital Certificates](subtopics/encryption-and-digital-certificates/notes.md) · [examples](subtopics/encryption-and-digital-certificates/examples.md) · [exercises](subtopics/encryption-and-digital-certificates/exercises.md)
+        - **Encryption, Protocols and Digital Certificates** — [notes](subtopics/encryption-and-digital-certificates/notes.md) · [examples](subtopics/encryption-and-digital-certificates/examples.md) · [exercises](subtopics/encryption-and-digital-certificates/exercises.md) · [solutions](subtopics/encryption-and-digital-certificates/solutions.md) · [animation](subtopics/encryption-and-digital-certificates/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

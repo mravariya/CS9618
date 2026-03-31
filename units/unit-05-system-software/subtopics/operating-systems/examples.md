@@ -1,39 +1,39 @@
-# Worked examples — Operating Systems
+# Guided examples — Operating Systems
 
-## Example 1 — Concept check (short)
-
-**Prompt:** Give one reason why the syllabus expects you to connect **theory** to a **short scenario**.
-
-**Worked answer:** The syllabus tests **application (AO2)**. A good answer names a **concept**, applies it to the **scenario**, and uses **because** to link evidence.
+Worked originals (not from past papers). Increase difficulty top → bottom.
 
 ---
 
-## Example 2 — Structured steps
+## Example A — Recall (foundation)
 
-**Prompt:** Outline how you would approach a multi-part algorithm question under time pressure.
+**Question:** Name two reasons teachers use **layered explanations** when introducing a technical topic.
 
-**Steps:**
+**Solution sketch:** (1) Builds shared vocabulary first. (2) Reduces cognitive load before abstract formalism.
 
-1. Read all parts; underline **outputs** and **constraints**.
-2. Write an **identifier table** if variables are non-trivial.
-3. Code **pseudocode** with clear **indentation** and **END** markers for structures.
-4. Dry-run **one** normal case if a trace is requested.
+---
 
-**Code snippet (pseudocode style):**
+## Example B — Application (scenario)
 
-```
-// Illustrative only — match the official pseudocode guide in exams
-CONSTANT MaxN = 100
-DECLARE Count : INTEGER
-Count ← 0
-WHILE Count < MaxN DO
-  OUTPUT Count
-  Count ← Count + 1
-ENDWHILE
-```
+**Question:** A learner says: “Hexadecimal is just for colours.” **Explain** why that is incomplete for 9618.
 
-💡 **Exam Tip:** If the insert provides **built-in functions**, prefer those names exactly.
+**Solution sketch:** Hex is a **compact human view** of binary patterns; it appears in **memory addresses**, **machine-level dumps**, and **colour**—the syllabus expects **general** use, not one domain.
 
-⚠️ **Common Mistakes:** Mixing **language-specific** syntax with **exam pseudocode**; forgetting **ENDWHILE** / **ENDIF**.
+---
 
-🔗 **Further Reading:** Pseudocode guide PDF in `resources/references/originals/`
+## Example C — Integration (exam-style stem)
+
+**Question:** **Describe** how **mis-matched interpretation** of stored bits could affect **data integrity** in a multi-system workflow.
+
+**Solution sketch:** Same bit pattern interpreted as different types/endianness/encodings → wrong values, corrupted fields, failed validation; mitigations include standards, metadata, agreed schemas.
+
+---
+
+## Example D — System Software linkage
+
+**Question:** Link **one idea** from `Operating Systems` to another objective in **System Software**.
+
+**Solution sketch:** Student selects a valid pairing and explains a **causal** or **dependency** relationship in 3–5 sentences.
+
+💡 **Exam Tip:** When a question says **justify**, include **evidence** and **criteria** (what you optimised for).
+
+🔗 Use objectives listed in [notes.md](notes.md) as a mark scheme for self-checking.

@@ -7,9 +7,23 @@
 
         Advanced algorithms, ADT operations, complexity, and recursion for Paper 3 and practical work.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Computational Thin   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Algorithms and Abstrac… |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Recursion             |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Linear vs binary search — write, conditions for binary, performance vs size.
 - Insertion sort and bubble sort — write; performance depends on order and n.
@@ -31,7 +45,13 @@
 - Compilers
 - Simulation
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Algorithms and Abstract Data Types](subtopics/algorithms-and-adts/notes.md) · [examples](subtopics/algorithms-and-adts/examples.md) · [exercises](subtopics/algorithms-and-adts/exercises.md)
-- [Recursion](subtopics/recursion/notes.md) · [examples](subtopics/recursion/examples.md) · [exercises](subtopics/recursion/exercises.md)
+        - **Algorithms and Abstract Data Types** — [notes](subtopics/algorithms-and-adts/notes.md) · [examples](subtopics/algorithms-and-adts/examples.md) · [exercises](subtopics/algorithms-and-adts/exercises.md) · [solutions](subtopics/algorithms-and-adts/solutions.md) · [animation](subtopics/algorithms-and-adts/animation.md) · `animations/scene.py`
+- **Recursion** — [notes](subtopics/recursion/notes.md) · [examples](subtopics/recursion/examples.md) · [exercises](subtopics/recursion/exercises.md) · [solutions](subtopics/recursion/solutions.md) · [animation](subtopics/recursion/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

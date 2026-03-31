@@ -9,10 +9,18 @@ Thank you for helping make computer science education more accessible. Contribut
 3. **No past-paper copyright** — Do not paste full past-paper questions or mark schemes from Cambridge. Write **original** exam-style questions “in the style of” the syllabus command words.
 4. **MIT license** — By contributing, you agree your contributions are licensed under the [LICENSE](LICENSE) in this repository.
 
+## Manim animations
+
+- Prefer **Manim Community** APIs; keep scenes **short**, **readable**, and **syllabus-faithful**.
+- One **concept** per scene where possible; avoid clutter on a single frame.
+- Run `python3 -m py_compile animations/scene.py` before opening a PR (Manim itself is optional locally).
+- Document new scenes in that subtopic’s **`animation.md`** (same pattern in every subtopic folder).
+- Setup help: [docs/animations-setup.md](docs/animations-setup.md).
+
 ## Ways to contribute
 
 - Fix typos, links, or syllabus references in any `*.md` file.
-- Add **worked examples** or **diagrams** (ASCII, Mermaid, or linked images you have rights to use).
+- Add **worked examples** or **diagrams** (ASCII, Mermaid, Manim, or linked images you have rights to use).
 - Add **original** short-answer or structured questions in `exercises.md`.
 - Improve **real-world applications** or **further reading** (open-access sources preferred).
 - Translate or adapt a unit for a local context (open a PR or issue to coordinate).
@@ -24,6 +32,7 @@ Thank you for helping make computer science education more accessible. Contribut
 - [ ] Include where helpful: **Exam Tip**, **Common Mistakes**, **Further Reading**.
 - [ ] Pseudocode follows ideas in the official **Pseudocode Guide** (this repo includes a PDF copy under `resources/references/originals/`).
 - [ ] No scanned or full-text third-party textbook extracts.
+- [ ] If you change `tools/generate_units.py` objectives, run `python3 tools/generate_learning_modules.py` to refresh generated modules (or edit premium `tools/premium_topic_1_1.py` for section 1.1).
 
 ## Git workflow
 

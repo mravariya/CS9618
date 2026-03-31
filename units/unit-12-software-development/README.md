@@ -7,9 +7,27 @@
 
         Life cycles, design notations, disciplined testing, and maintaining reliable software.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Software Developme   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Program Development Li… |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Program Design        |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Program Testing and Ma… |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Purpose of life cycles; waterfall, iterative, RAD — principles, pros/cons.
 - Analysis, design, coding, testing, maintenance stages.
@@ -32,8 +50,14 @@
 - Safety-critical updates
 - User acceptance
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Program Development Life Cycle](subtopics/program-development-lifecycle/notes.md) · [examples](subtopics/program-development-lifecycle/examples.md) · [exercises](subtopics/program-development-lifecycle/exercises.md)
-- [Program Design](subtopics/program-design/notes.md) · [examples](subtopics/program-design/examples.md) · [exercises](subtopics/program-design/exercises.md)
-- [Program Testing and Maintenance](subtopics/program-testing-and-maintenance/notes.md) · [examples](subtopics/program-testing-and-maintenance/examples.md) · [exercises](subtopics/program-testing-and-maintenance/exercises.md)
+        - **Program Development Life Cycle** — [notes](subtopics/program-development-lifecycle/notes.md) · [examples](subtopics/program-development-lifecycle/examples.md) · [exercises](subtopics/program-development-lifecycle/exercises.md) · [solutions](subtopics/program-development-lifecycle/solutions.md) · [animation](subtopics/program-development-lifecycle/animation.md) · `animations/scene.py`
+- **Program Design** — [notes](subtopics/program-design/notes.md) · [examples](subtopics/program-design/examples.md) · [exercises](subtopics/program-design/exercises.md) · [solutions](subtopics/program-design/solutions.md) · [animation](subtopics/program-design/animation.md) · `animations/scene.py`
+- **Program Testing and Maintenance** — [notes](subtopics/program-testing-and-maintenance/notes.md) · [examples](subtopics/program-testing-and-maintenance/examples.md) · [exercises](subtopics/program-testing-and-maintenance/exercises.md) · [solutions](subtopics/program-testing-and-maintenance/solutions.md) · [animation](subtopics/program-testing-and-maintenance/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

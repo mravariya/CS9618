@@ -7,9 +7,27 @@
 
         CPU architecture, machine-level thinking, and bit-level operations used in systems programming.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Processor Fundamen   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Central Processing Uni… |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Assembly Language     |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Bit Manipulation      |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Von Neumann model; stored program; registers (general vs special: PC, MDR, MAR, ACC, IX, CIR, Status).
 - ALU, CU, clock, IAS; buses (address, data, control); performance factors (cores, bus width, clock, cache).
@@ -34,8 +52,14 @@
 - Device drivers
 - Performance tuning
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Central Processing Unit (CPU) Architecture](subtopics/cpu-architecture/notes.md) · [examples](subtopics/cpu-architecture/examples.md) · [exercises](subtopics/cpu-architecture/exercises.md)
-- [Assembly Language](subtopics/assembly-language/notes.md) · [examples](subtopics/assembly-language/examples.md) · [exercises](subtopics/assembly-language/exercises.md)
-- [Bit Manipulation](subtopics/bit-manipulation/notes.md) · [examples](subtopics/bit-manipulation/examples.md) · [exercises](subtopics/bit-manipulation/exercises.md)
+        - **Central Processing Unit (CPU) Architecture** — [notes](subtopics/cpu-architecture/notes.md) · [examples](subtopics/cpu-architecture/examples.md) · [exercises](subtopics/cpu-architecture/exercises.md) · [solutions](subtopics/cpu-architecture/solutions.md) · [animation](subtopics/cpu-architecture/animation.md) · `animations/scene.py`
+- **Assembly Language** — [notes](subtopics/assembly-language/notes.md) · [examples](subtopics/assembly-language/examples.md) · [exercises](subtopics/assembly-language/exercises.md) · [solutions](subtopics/assembly-language/solutions.md) · [animation](subtopics/assembly-language/animation.md) · `animations/scene.py`
+- **Bit Manipulation** — [notes](subtopics/bit-manipulation/notes.md) · [examples](subtopics/bit-manipulation/examples.md) · [exercises](subtopics/bit-manipulation/exercises.md) · [solutions](subtopics/bit-manipulation/solutions.md) · [animation](subtopics/bit-manipulation/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

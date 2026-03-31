@@ -7,9 +7,23 @@
 
         Protecting systems and data from threats, and keeping data accurate through validation and verification.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Security, Privacy    |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Data Security         |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Data Integrity        |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Define security, privacy, integrity; need to protect data and systems.
 - Security measures from standalone PC to networks (accounts, passwords, biometrics, firewall, AV, encryption).
@@ -30,7 +44,13 @@
 - Healthcare records
 - E-government
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Data Security](subtopics/data-security/notes.md) · [examples](subtopics/data-security/examples.md) · [exercises](subtopics/data-security/exercises.md)
-- [Data Integrity](subtopics/data-integrity/notes.md) · [examples](subtopics/data-integrity/examples.md) · [exercises](subtopics/data-integrity/exercises.md)
+        - **Data Security** — [notes](subtopics/data-security/notes.md) · [examples](subtopics/data-security/examples.md) · [exercises](subtopics/data-security/exercises.md) · [solutions](subtopics/data-security/solutions.md) · [animation](subtopics/data-security/animation.md) · `animations/scene.py`
+- **Data Integrity** — [notes](subtopics/data-integrity/notes.md) · [examples](subtopics/data-integrity/examples.md) · [exercises](subtopics/data-integrity/exercises.md) · [solutions](subtopics/data-integrity/solutions.md) · [animation](subtopics/data-integrity/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

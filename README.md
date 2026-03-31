@@ -1,82 +1,91 @@
-# Cambridge CIE CS9618 Open Learning Repository
+# Cambridge CIE CS9618 Open Learning (SDG 4 Initiative)
 
-Open, structured learning materials aligned with **Cambridge International AS & A Level Computer Science (9618)**. This project turns syllabus-aligned sources into **student-friendly Markdown**, clear **unit maps**, and spaces for **teacher collaboration**—supporting **UN Sustainable Development Goal 4 (Quality Education)** through reusable, openly licensed notes and activities.
+World-class, **open-source** learning materials for **Cambridge International AS & A Level Computer Science (9618)**—structured for **conceptual depth**, **exam rigour**, **IB-style inquiry**, and **global collaboration**. This project supports **UN Sustainable Development Goal 4 (Quality Education)** by making syllabus-mapped modules, worked solutions, and optional **Manim** animations freely reusable and improvable.
 
-> **Disclaimer:** This is an independent educational resource. It is **not** affiliated with or endorsed by Cambridge Assessment International Education. Always use the **official syllabus** and **School Support Hub** materials for authoritative assessment details. See [LICENSE](LICENSE) for the MIT license and third-party/educational-use notice.
+> **Disclaimer:** Independent educational resource; **not** affiliated with Cambridge Assessment International Education. Verify all assessment details against your **official syllabus** and **School Support Hub**. Community Markdown and scripts are **MIT-licensed**; Cambridge PDFs in `resources/references/originals/` remain **their copyright**. See [LICENSE](LICENSE).
 
-## Purpose
+## Vision and mission
 
-- **Open-source learning platform** — Version-controlled content anyone can fork, translate, or adapt for their context.
-- **Student-friendly structure** — Units and subtopics match syllabus sections; language is kept clear for ages **16–18** and **ESL** learners.
-- **Teacher contributions** — Issues and pull requests welcome for examples, exam-style questions, and local adaptations.
-- **SDG 4** — Reduce barriers to quality CS education by sharing organised materials, contribution guides, and transparent roadmaps.
+- **Teach deeply** — Layered explanations (intuition → formal → applied), misconceptions, and differentiation.
+- **Pedagogy** — Pre-read, inquiry prompts, scaffolding, reflection; aligned with **9618** assessment objectives.
+- **Visual learning** — Each subtopic includes an **animation plan**, `animation.md`, and `animations/scene.py` (Manim Community / 3b1b-style motion graphics).
+- **Open collaboration** — Teachers and learners improve content via [CONTRIBUTING.md](CONTRIBUTING.md); labels in [.github/github-labels.md](.github/github-labels.md).
 
-## What is inside
+## Repository map
 
-| Area | Description |
+| Path | Role |
 | --- | --- |
-| [syllabus/syllabus.md](syllabus/syllabus.md) | Syllabus overview, aims, content map, assessment summary (derived from official syllabus text). |
-| [syllabus/scheme_of_work.md](syllabus/scheme_of_work.md) | Scheme of Work cross-reference: guided hours, teaching order, key concepts. |
-| [units/](units/) | Twenty units (`unit-01-…` through `unit-20-…`), each with `README.md` and `subtopics/*/notes.md`, `examples.md`, `exercises.md`. |
-| [resources/](resources/) | `diagrams/`, `code/`, `references/originals/` (canonical PDF copies where permitted locally). |
+| [syllabus/syllabus.md](syllabus/syllabus.md) | Syllabus overview, papers, content grid |
+| [syllabus/scheme_of_work.md](syllabus/scheme_of_work.md) | Guided hours, teaching order, KC1–KC5 |
+| [units/](units/) | 20 units → 44 subtopics; each module has **notes**, **examples**, **exercises**, **solutions**, **animation** |
+| [docs/animations-setup.md](docs/animations-setup.md) | FFmpeg, Cairo, `pip install manim`, troubleshooting |
+| [tools/generate_units.py](tools/generate_units.py) | Curriculum metadata → base unit tree |
+| [tools/generate_learning_modules.py](tools/generate_learning_modules.py) | Full pedagogical Markdown + Manim stubs |
+| [tools/premium_topic_1_1.py](tools/premium_topic_1_1.py) | **Section 1.1** deep content + **7** Manim scenes |
 
-Official PDFs included locally for convenience (see `resources/references/originals/`):
-
-- Syllabus (2027–2029 series)
-- Pseudocode Guide for Teachers (2027–2029 series)
-- Scheme of Work and Learner Guide (2021 onwards)
-
-## How to use this repo
-
-### Students
-
-1. Start from [syllabus/syllabus.md](syllabus/syllabus.md) to see how **Papers 1–4** map to topics.
-2. Open the unit that matches your class order (your school may differ from the suggested order in the Scheme of Work).
-3. For each subtopic, read **notes** → study **examples** → attempt **exercises**; check **Exam Tip** and **Common Mistakes** boxes.
-4. Cross-check every statement against your **current exam series** syllabus PDF.
-
-### Teachers
-
-1. Use unit `README.md` files for **learning objectives** and **key terms** when planning lessons.
-2. Align with [syllabus/scheme_of_work.md](syllabus/scheme_of_work.md) for **suggested hours** and **key concept** tags (KC1–KC5).
-3. Contribute improvements via [CONTRIBUTING.md](CONTRIBUTING.md); use suggested labels in [.github/github-labels.md](.github/github-labels.md).
-
-## Folder structure
+### Subtopic folder layout
 
 ```text
-CS9618/
-├── README.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── roadmap.md
-├── syllabus/
-│   ├── syllabus.md
-│   └── scheme_of_work.md
-├── units/
-│   ├── unit-01-information-representation/
-│   │   ├── README.md
-│   │   └── subtopics/
-│   │       └── <subtopic>/
-│   │           ├── notes.md
-│   │           ├── examples.md
-│   │           └── exercises.md
-│   └── ...
-├── resources/
-│   ├── diagrams/
-│   ├── code/
-│   └── references/
-└── .github/
-    └── github-labels.md
+units/.../subtopics/<subtopic-name>/
+├── notes.md
+├── examples.md
+├── exercises.md
+├── solutions.md
+├── animation.md
+└── animations/
+    └── scene.py
 ```
+
+**Topic 1.1 (Data Representation)** is intentionally the most detailed module (extended notes, multi-scene Manim).
+
+## How to use (students)
+
+1. Read [syllabus/syllabus.md](syllabus/syllabus.md) for **paper → topic** mapping.
+2. Open a unit `README.md` (concept map + objectives + subtopic links).
+3. Study each subtopic: **notes** → **examples** → **exercises** → **solutions**.
+4. Optional: render **Manim** scenes listed in `animation.md`.
+
+## How to use (teachers)
+
+- Plan lessons from unit objectives and **Scheme of Work** hours in [syllabus/scheme_of_work.md](syllabus/scheme_of_work.md).
+- Use **inquiry** and **differentiation** blocks in `notes.md` for starter/plenary.
+- Assign **exercises.md**; use **solutions.md** for formative feedback.
+- Contribute richer **Manim** scenes or local scenarios (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+
+## How to run animations
+
+1. Install system dependencies (FFmpeg; on macOS often Cairo + pkg-config). Full steps: [docs/animations-setup.md](docs/animations-setup.md).
+2. `pip install -r requirements-animations.txt` (prefer a virtual environment).
+3. From the subtopic directory:
+
+```bash
+manim -pql animations/scene.py <SceneName>
+```
+
+Example (Topic 1.1):
+
+```bash
+cd units/unit-01-information-representation/subtopics/data-representation
+manim -pql animations/scene.py Topic11TitleCard
+```
+
+**Manim Community** (`pip install manim`) implements the `manim` CLI. The original [3b1b/manim](https://github.com/3b1b/manim) repository is the historical home of the project; APIs overlap for introductory scenes.
+
+## Regenerating content (automation)
+
+After editing curriculum data in `tools/generate_units.py`:
+
+```bash
+python3 tools/generate_units.py
+python3 tools/generate_learning_modules.py
+```
+
+Section **1.1** premium text and scenes are merged from `tools/premium_topic_1_1.py` on each run.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, content style, syllabus alignment, and licensing. See [roadmap.md](roadmap.md) for planned work.
-
-To **regenerate** unit/subtopic skeletons after editing objectives metadata, run:
-
-`python3 tools/generate_units.py`
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [roadmap.md](roadmap.md).
 
 ## Recognition
 
-Course structure and learning objectives follow **Cambridge International AS & A Level Computer Science 9618**. Community text and examples in this repository are MIT-licensed unless otherwise stated in a file.
+Syllabus structure and learning outcomes follow **Cambridge International 9618**. Thank you to the open **Manim** community and educators who extend this repository.

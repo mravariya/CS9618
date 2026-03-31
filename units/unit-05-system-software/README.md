@@ -7,9 +7,23 @@
 
         Operating systems and translators that make hardware usable and turn source code into running programs.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   System Software      |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Operating Systems     |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Language Translators  |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Why an OS is needed; key tasks: memory, file, security, hardware/peripheral, process management.
 - Utility software (formatter, antivirus, defrag, disk tools, compression, backup).
@@ -30,7 +44,13 @@
 - Software development
 - System utilities
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Operating Systems](subtopics/operating-systems/notes.md) · [examples](subtopics/operating-systems/examples.md) · [exercises](subtopics/operating-systems/exercises.md)
-- [Language Translators](subtopics/language-translators/notes.md) · [examples](subtopics/language-translators/examples.md) · [exercises](subtopics/language-translators/exercises.md)
+        - **Operating Systems** — [notes](subtopics/operating-systems/notes.md) · [examples](subtopics/operating-systems/examples.md) · [exercises](subtopics/operating-systems/exercises.md) · [solutions](subtopics/operating-systems/solutions.md) · [animation](subtopics/operating-systems/animation.md) · `animations/scene.py`
+- **Language Translators** — [notes](subtopics/language-translators/notes.md) · [examples](subtopics/language-translators/examples.md) · [exercises](subtopics/language-translators/exercises.md) · [solutions](subtopics/language-translators/solutions.md) · [animation](subtopics/language-translators/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

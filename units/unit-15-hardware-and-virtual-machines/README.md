@@ -7,9 +7,23 @@
 
         Advanced processors, parallelism, virtualisation, and formal logic tools for digital design.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Hardware and Virtu   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Processors, Parallel P… |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Boolean Algebra and Lo… |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - RISC vs CISC; interrupts on both; pipelining/registers in RISC.
 - Flynn: SISD, SIMD, MISD, MIMD; massively parallel systems.
@@ -30,7 +44,13 @@
 - GPU computing
 - CPU design
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Processors, Parallel Processing and Virtual Machines](subtopics/processors-parallel-processing-and-virtual-machines/notes.md) · [examples](subtopics/processors-parallel-processing-and-virtual-machines/examples.md) · [exercises](subtopics/processors-parallel-processing-and-virtual-machines/exercises.md)
-- [Boolean Algebra and Logic Circuits](subtopics/boolean-algebra-and-logic-circuits/notes.md) · [examples](subtopics/boolean-algebra-and-logic-circuits/examples.md) · [exercises](subtopics/boolean-algebra-and-logic-circuits/exercises.md)
+        - **Processors, Parallel Processing and Virtual Machines** — [notes](subtopics/processors-parallel-processing-and-virtual-machines/notes.md) · [examples](subtopics/processors-parallel-processing-and-virtual-machines/examples.md) · [exercises](subtopics/processors-parallel-processing-and-virtual-machines/exercises.md) · [solutions](subtopics/processors-parallel-processing-and-virtual-machines/solutions.md) · [animation](subtopics/processors-parallel-processing-and-virtual-machines/animation.md) · `animations/scene.py`
+- **Boolean Algebra and Logic Circuits** — [notes](subtopics/boolean-algebra-and-logic-circuits/notes.md) · [examples](subtopics/boolean-algebra-and-logic-circuits/examples.md) · [exercises](subtopics/boolean-algebra-and-logic-circuits/exercises.md) · [solutions](subtopics/boolean-algebra-and-logic-circuits/solutions.md) · [animation](subtopics/boolean-algebra-and-logic-circuits/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

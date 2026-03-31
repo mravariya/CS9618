@@ -7,9 +7,31 @@
 
         Choosing data types, using records and arrays, simple file handling, and introductory ADTs.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Data Types and Str   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Data Types and Records |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Arrays                |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Files                 |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Introduction to Abstra… |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Choose INTEGER, REAL, CHAR, STRING, BOOLEAN, DATE, ARRAY, FILE as appropriate.
 - Purpose of records; pseudocode to define/read/write records.
@@ -32,9 +54,15 @@
 - Grids in games
 - Text processing
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Data Types and Records](subtopics/data-types-and-records/notes.md) · [examples](subtopics/data-types-and-records/examples.md) · [exercises](subtopics/data-types-and-records/exercises.md)
-- [Arrays](subtopics/arrays/notes.md) · [examples](subtopics/arrays/examples.md) · [exercises](subtopics/arrays/exercises.md)
-- [Files](subtopics/files/notes.md) · [examples](subtopics/files/examples.md) · [exercises](subtopics/files/exercises.md)
-- [Introduction to Abstract Data Types (ADT)](subtopics/introduction-to-abstract-data-types/notes.md) · [examples](subtopics/introduction-to-abstract-data-types/examples.md) · [exercises](subtopics/introduction-to-abstract-data-types/exercises.md)
+        - **Data Types and Records** — [notes](subtopics/data-types-and-records/notes.md) · [examples](subtopics/data-types-and-records/examples.md) · [exercises](subtopics/data-types-and-records/exercises.md) · [solutions](subtopics/data-types-and-records/solutions.md) · [animation](subtopics/data-types-and-records/animation.md) · `animations/scene.py`
+- **Arrays** — [notes](subtopics/arrays/notes.md) · [examples](subtopics/arrays/examples.md) · [exercises](subtopics/arrays/exercises.md) · [solutions](subtopics/arrays/solutions.md) · [animation](subtopics/arrays/animation.md) · `animations/scene.py`
+- **Files** — [notes](subtopics/files/notes.md) · [examples](subtopics/files/examples.md) · [exercises](subtopics/files/exercises.md) · [solutions](subtopics/files/solutions.md) · [animation](subtopics/files/animation.md) · `animations/scene.py`
+- **Introduction to Abstract Data Types (ADT)** — [notes](subtopics/introduction-to-abstract-data-types/notes.md) · [examples](subtopics/introduction-to-abstract-data-types/examples.md) · [exercises](subtopics/introduction-to-abstract-data-types/exercises.md) · [solutions](subtopics/introduction-to-abstract-data-types/solutions.md) · [animation](subtopics/introduction-to-abstract-data-types/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

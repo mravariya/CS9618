@@ -1,0 +1,5 @@
+# Manim (Community edition) — 3Blue1Brown–style animations
+# Install: pip install -r requirements-animations.txt
+# System deps: FFmpeg required (https://ffmpeg.org/). See https://docs.manim.community/
+
+manim>=0.18.0,<0.20.0

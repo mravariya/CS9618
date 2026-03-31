@@ -7,9 +7,19 @@
 
         Search on graphs, core machine learning ideas, and how neural methods support intelligent behaviour.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Artificial Intelli   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Artificial Intelligenc… |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Graphs for AI: structure; A* and Dijkstra (interpret given algorithms, not write graph setup).
 - Neural networks and machine learning; deep, reinforcement learning; supervised vs unsupervised.
@@ -27,6 +37,12 @@
 - Recommendation
 - Computer vision
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Artificial Intelligence](subtopics/artificial-intelligence/notes.md) · [examples](subtopics/artificial-intelligence/examples.md) · [exercises](subtopics/artificial-intelligence/exercises.md)
+        - **Artificial Intelligence** — [notes](subtopics/artificial-intelligence/notes.md) · [examples](subtopics/artificial-intelligence/examples.md) · [exercises](subtopics/artificial-intelligence/exercises.md) · [solutions](subtopics/artificial-intelligence/solutions.md) · [animation](subtopics/artificial-intelligence/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

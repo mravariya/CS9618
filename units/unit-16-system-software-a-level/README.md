@@ -7,9 +7,23 @@
 
         Deepening OS ideas (scheduling, memory) and how translators analyse and evaluate code.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   System Software (A   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Purposes of an Operati… |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Translation Software  |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - OS maximising resource use; UI hiding hardware complexity.
 - Processes: multitasking, states (running, ready, blocked), scheduling algorithms.
@@ -29,7 +43,13 @@
 - Language implementation
 - Compilers
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Purposes of an Operating System](subtopics/purposes-of-an-operating-system/notes.md) · [examples](subtopics/purposes-of-an-operating-system/examples.md) · [exercises](subtopics/purposes-of-an-operating-system/exercises.md)
-- [Translation Software](subtopics/translation-software/notes.md) · [examples](subtopics/translation-software/examples.md) · [exercises](subtopics/translation-software/exercises.md)
+        - **Purposes of an Operating System** — [notes](subtopics/purposes-of-an-operating-system/notes.md) · [examples](subtopics/purposes-of-an-operating-system/examples.md) · [exercises](subtopics/purposes-of-an-operating-system/exercises.md) · [solutions](subtopics/purposes-of-an-operating-system/solutions.md) · [animation](subtopics/purposes-of-an-operating-system/animation.md) · `animations/scene.py`
+- **Translation Software** — [notes](subtopics/translation-software/notes.md) · [examples](subtopics/translation-software/examples.md) · [exercises](subtopics/translation-software/exercises.md) · [solutions](subtopics/translation-software/solutions.md) · [animation](subtopics/translation-software/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

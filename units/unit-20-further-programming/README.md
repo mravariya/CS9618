@@ -7,9 +7,23 @@
 
         Multiple paradigms and production-style file handling with exceptions for robust programs.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Further Programmin   |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Programming Paradigms |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | File Processing and Ex… |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Meaning of paradigm; characteristics of low-level, imperative/procedural, OOP, declarative.
 - Low-level: addressing modes; procedural: variables, constructs, subprograms; OOP: classes, inheritance, polymorphism, encapsulation, etc.; declarative: facts, rules, goals.
@@ -28,7 +42,13 @@
 - Plugins
 - Data pipelines
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Programming Paradigms](subtopics/programming-paradigms/notes.md) · [examples](subtopics/programming-paradigms/examples.md) · [exercises](subtopics/programming-paradigms/exercises.md)
-- [File Processing and Exception Handling](subtopics/file-processing-and-exception-handling/notes.md) · [examples](subtopics/file-processing-and-exception-handling/examples.md) · [exercises](subtopics/file-processing-and-exception-handling/exercises.md)
+        - **Programming Paradigms** — [notes](subtopics/programming-paradigms/notes.md) · [examples](subtopics/programming-paradigms/examples.md) · [exercises](subtopics/programming-paradigms/exercises.md) · [solutions](subtopics/programming-paradigms/solutions.md) · [animation](subtopics/programming-paradigms/animation.md) · `animations/scene.py`
+- **File Processing and Exception Handling** — [notes](subtopics/file-processing-and-exception-handling/notes.md) · [examples](subtopics/file-processing-and-exception-handling/examples.md) · [exercises](subtopics/file-processing-and-exception-handling/exercises.md) · [solutions](subtopics/file-processing-and-exception-handling/solutions.md) · [animation](subtopics/file-processing-and-exception-handling/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

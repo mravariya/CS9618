@@ -5,6 +5,7 @@ Community-driven plans for the **Cambridge CIE CS9618 Open Learning Repository**
 ## Near term (0–3 months)
 
 - [ ] Peer-review each **unit README** against the latest official syllabus PDF.
+- [ ] Expand **Manim** scenes beyond the 1.1 multi-scene set (generic overview scenes exist for other subtopics).
 - [ ] Add **Mermaid** or SVG diagrams for CPU fetch–execute, network topologies, and normalisation.
 - [ ] Populate `resources/code/` with **small, MIT-licensed** snippets (Python / pseudocode) referenced from examples.
 - [ ] Expand **Paper 4**-style practical scenarios (without copying live assessments).

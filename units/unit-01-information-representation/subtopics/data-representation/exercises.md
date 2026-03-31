@@ -1,31 +1,33 @@
-# Exercises — Data Representation
+# Practice — Data Representation (1.1)
 
-_Original exam-style questions only. Do not copy Cambridge past papers verbatim._
+---
 
-## Short answer
+## A. Short answer
 
-1. **Define** one key term from `Data Representation` using syllabus-quality wording.
-2. **State** one real-world application and **link** it to a technical idea from this subtopic.
-3. **Give** one advantage and one limitation of a method discussed in `Data Representation`.
+1. **State** the numeric multiplier for **1 GiB** in bytes as a power of two.
+2. **State** the numeric multiplier for **1 GB** in the SI decimal sense (bytes) as a power of ten.
+3. **Define** **two’s complement** in one sentence for a fixed-width integer.
 
-## Structured question
+## B. Structured (show working)
 
-A school is updating its systems. A scenario will describe users, devices, and data.
+1. Convert denary **91** to **8-bit binary**.
+2. Convert binary **`01001110`** to **denary** (unsigned interpretation).
+3. Convert binary **`01001110`** to **hexadecimal**.
+4. Using **8-bit two’s complement**, represent denary **−96**.
 
-1. **Describe** how a concept from **Information Representation** applies to the scenario.  
-2. **Explain** why an alternative approach might be weaker **in this context**.  
-3. **Justify** a recommendation that balances **performance**, **security**, and **usability** (choose factors relevant to `Data Representation`).
+## C. Exam-style
 
-## Scenario-based
+1. **Explain** how **overflow** can occur when two **positive** 8-bit two’s complement integers are added.
+2. **Describe** a practical situation where **BCD** might be preferred to a plain binary integer encoding.
+3. **Justify** using **hexadecimal** when debugging memory contents instead of displaying raw binary.
 
-You are advising a small organisation that must keep records consistent and secure.
+## D. Scenario
 
-- **Identify** two **risks** relevant to `Data Representation`.  
-- **Outline** controls or design choices that address those risks.  
-- **Evaluate** trade-offs (e.g. cost, complexity, user friction).
+A media app reports “**500 MB** free” but the OS reports “**476.8 MiB** free” for the same partition.
 
-💡 **Exam Tip:** Use **headings** in longer answers to mirror the question parts.
+- **Identify** two different interpretations of **mega/mebi** that could cause confusion.
+- **Explain** why developers should document which interpretation their UI uses.
 
-⚠️ **Common Mistakes:** Answering a **different** topic than the question stem; **lists** without **explanations** where the command word is *explain* or *justify*.
+---
 
-🔗 **Further Reading:** Specimen papers on the School Support Hub (registered centres)
+_Original questions — not copied from Cambridge past papers._

@@ -7,9 +7,23 @@
 
         Protocol stacks, internet applications, and how switching strategies shape networks.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Communication and    |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Protocols             |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Circuit Switching and … |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Why protocols matter; layered stacks and responsibilities.
 - TCP/IP four layers; message path between hosts.
@@ -29,7 +43,13 @@
 - Email
 - P2P distribution
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Protocols](subtopics/protocols/notes.md) · [examples](subtopics/protocols/examples.md) · [exercises](subtopics/protocols/exercises.md)
-- [Circuit Switching and Packet Switching](subtopics/circuit-switching-and-packet-switching/notes.md) · [examples](subtopics/circuit-switching-and-packet-switching/examples.md) · [exercises](subtopics/circuit-switching-and-packet-switching/exercises.md)
+        - **Protocols** — [notes](subtopics/protocols/notes.md) · [examples](subtopics/protocols/examples.md) · [exercises](subtopics/protocols/exercises.md) · [solutions](subtopics/protocols/solutions.md) · [animation](subtopics/protocols/animation.md) · `animations/scene.py`
+- **Circuit Switching and Packet Switching** — [notes](subtopics/circuit-switching-and-packet-switching/notes.md) · [examples](subtopics/circuit-switching-and-packet-switching/examples.md) · [exercises](subtopics/circuit-switching-and-packet-switching/exercises.md) · [solutions](subtopics/circuit-switching-and-packet-switching/solutions.md) · [animation](subtopics/circuit-switching-and-packet-switching/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

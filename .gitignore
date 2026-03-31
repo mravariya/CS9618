@@ -2,6 +2,7 @@
 *.pyc
 __pycache__/
 .venv_pdf/
+.venv_manim/
 *.swp
 .idea/
 .vscode/

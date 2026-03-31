@@ -7,9 +7,23 @@
 
         Physical components from embedded systems to peripherals, memory technologies, and combinational logic.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Hardware             |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Computers and Their Co… |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Logic Gates and Logic … |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Need for input, output, primary memory, secondary/removable storage; embedded systems pros/cons.
 - Principal operations of listed devices (e.g. laser/3D printer, mic, speakers, HDD, SSD, optical, touchscreen, VR).
@@ -30,7 +44,13 @@
 - Wearables
 - Autonomous vehicles
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Computers and Their Components](subtopics/computers-and-their-components/notes.md) · [examples](subtopics/computers-and-their-components/examples.md) · [exercises](subtopics/computers-and-their-components/exercises.md)
-- [Logic Gates and Logic Circuits](subtopics/logic-gates-and-logic-circuits/notes.md) · [examples](subtopics/logic-gates-and-logic-circuits/examples.md) · [exercises](subtopics/logic-gates-and-logic-circuits/exercises.md)
+        - **Computers and Their Components** — [notes](subtopics/computers-and-their-components/notes.md) · [examples](subtopics/computers-and-their-components/examples.md) · [exercises](subtopics/computers-and-their-components/exercises.md) · [solutions](subtopics/computers-and-their-components/solutions.md) · [animation](subtopics/computers-and-their-components/animation.md) · `animations/scene.py`
+- **Logic Gates and Logic Circuits** — [notes](subtopics/logic-gates-and-logic-circuits/notes.md) · [examples](subtopics/logic-gates-and-logic-circuits/examples.md) · [exercises](subtopics/logic-gates-and-logic-circuits/exercises.md) · [solutions](subtopics/logic-gates-and-logic-circuits/solutions.md) · [animation](subtopics/logic-gates-and-logic-circuits/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

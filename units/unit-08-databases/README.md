@@ -7,9 +7,27 @@
 
         Relational design, normalisation, DBMS features, and practical SQL for defining and querying data.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Databases            |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Database Concepts     |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Database Management Sy… |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | DDL and DML (SQL)     |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Limitations of file-based storage/retrieval vs relational model features.
 - Relational terminology: entity, table, record, field, tuple, attribute, keys, relationships, referential integrity, indexing.
@@ -32,8 +50,14 @@
 - Library systems
 - Inventory
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Database Concepts](subtopics/database-concepts/notes.md) · [examples](subtopics/database-concepts/examples.md) · [exercises](subtopics/database-concepts/exercises.md)
-- [Database Management Systems (DBMS)](subtopics/database-management-systems/notes.md) · [examples](subtopics/database-management-systems/examples.md) · [exercises](subtopics/database-management-systems/exercises.md)
-- [DDL and DML (SQL)](subtopics/ddl-and-dml/notes.md) · [examples](subtopics/ddl-and-dml/examples.md) · [exercises](subtopics/ddl-and-dml/exercises.md)
+        - **Database Concepts** — [notes](subtopics/database-concepts/notes.md) · [examples](subtopics/database-concepts/examples.md) · [exercises](subtopics/database-concepts/exercises.md) · [solutions](subtopics/database-concepts/solutions.md) · [animation](subtopics/database-concepts/animation.md) · `animations/scene.py`
+- **Database Management Systems (DBMS)** — [notes](subtopics/database-management-systems/notes.md) · [examples](subtopics/database-management-systems/examples.md) · [exercises](subtopics/database-management-systems/exercises.md) · [solutions](subtopics/database-management-systems/solutions.md) · [animation](subtopics/database-management-systems/animation.md) · `animations/scene.py`
+- **DDL and DML (SQL)** — [notes](subtopics/ddl-and-dml/notes.md) · [examples](subtopics/ddl-and-dml/examples.md) · [exercises](subtopics/ddl-and-dml/exercises.md) · [solutions](subtopics/ddl-and-dml/solutions.md) · [animation](subtopics/ddl-and-dml/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`

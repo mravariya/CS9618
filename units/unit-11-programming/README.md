@@ -7,9 +7,27 @@
 
         Writing structured pseudocode with correct constructs, modular design, and clear interfaces.
 
-        ## Learning objectives
+        ## Concept map (text)
 
-        Derived from the official **9618** syllabus and cross-checked with the **Scheme of Work** (topic sequencing and key concept tags):
+        ```text
+                            +----------------------+
+                    |   Programming          |
+                    +----------+-----------+
+                            |
+                     +-----v-----+
+                     | Programming Basics    |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Constructs            |
+                     +-----------+
+                            |
+                     +-----v-----+
+                     | Structured Programming |
+                     +-----------+
+        ```
+
+        ## Learning objectives (syllabus-mapped)
 
         - Implement pseudocode from flowchart/structured English.
 - Declarations, assignment, expressions, console I/O; built-in/library routines as provided in exam.
@@ -29,8 +47,14 @@
 - Data processing
 - Embedded logic
 
-        ## Subtopics
+        ## Subtopics (full modules)
 
-        - [Programming Basics](subtopics/programming-basics/notes.md) · [examples](subtopics/programming-basics/examples.md) · [exercises](subtopics/programming-basics/exercises.md)
-- [Constructs](subtopics/constructs/notes.md) · [examples](subtopics/constructs/examples.md) · [exercises](subtopics/constructs/exercises.md)
-- [Structured Programming](subtopics/structured-programming/notes.md) · [examples](subtopics/structured-programming/examples.md) · [exercises](subtopics/structured-programming/exercises.md)
+        - **Programming Basics** — [notes](subtopics/programming-basics/notes.md) · [examples](subtopics/programming-basics/examples.md) · [exercises](subtopics/programming-basics/exercises.md) · [solutions](subtopics/programming-basics/solutions.md) · [animation](subtopics/programming-basics/animation.md) · `animations/scene.py`
+- **Constructs** — [notes](subtopics/constructs/notes.md) · [examples](subtopics/constructs/examples.md) · [exercises](subtopics/constructs/exercises.md) · [solutions](subtopics/constructs/solutions.md) · [animation](subtopics/constructs/animation.md) · `animations/scene.py`
+- **Structured Programming** — [notes](subtopics/structured-programming/notes.md) · [examples](subtopics/structured-programming/examples.md) · [exercises](subtopics/structured-programming/exercises.md) · [solutions](subtopics/structured-programming/solutions.md) · [animation](subtopics/structured-programming/animation.md) · `animations/scene.py`
+
+        ## Animations (Manim)
+
+        From any subtopic folder, install dependencies (see root `README.md`), then:
+
+        `manim -pql animations/scene.py <SceneName>`
