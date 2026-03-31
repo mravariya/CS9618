@@ -1,0 +1,11 @@
+.DS_Store
+*.pyc
+__pycache__/
+.venv_pdf/
+*.swp
+.idea/
+.vscode/
+
+# Optional: full Teach Cambridge extract (duplicates + large archives).
+# Remove the next line if you want to version-control the full `_source/` tree.
+_source/
