@@ -46,8 +46,8 @@
 
         ## Subtopics (full modules)
 
-        - **Computers and Their Components** — [notes](subtopics/computers-and-their-components/notes.md) · [examples](subtopics/computers-and-their-components/examples.md) · [exercises](subtopics/computers-and-their-components/exercises.md) · [solutions](subtopics/computers-and-their-components/solutions.md) · [animation](subtopics/computers-and-their-components/animation.md) · `animations/scene.py`
-- **Logic Gates and Logic Circuits** — [notes](subtopics/logic-gates-and-logic-circuits/notes.md) · [examples](subtopics/logic-gates-and-logic-circuits/examples.md) · [exercises](subtopics/logic-gates-and-logic-circuits/exercises.md) · [solutions](subtopics/logic-gates-and-logic-circuits/solutions.md) · [animation](subtopics/logic-gates-and-logic-circuits/animation.md) · `animations/scene.py`
+        - **Computers and Their Components** — [notes](subtopics/3.1-computers-and-their-components/notes.md) · [examples](subtopics/3.1-computers-and-their-components/examples.md) · [exercises](subtopics/3.1-computers-and-their-components/exercises.md) · [solutions](subtopics/3.1-computers-and-their-components/solutions.md) · [animation](subtopics/3.1-computers-and-their-components/animation.md) · `animations/scene.py`
+- **Logic Gates and Logic Circuits** — [notes](subtopics/3.2-logic-gates-and-logic-circuits/notes.md) · [examples](subtopics/3.2-logic-gates-and-logic-circuits/examples.md) · [exercises](subtopics/3.2-logic-gates-and-logic-circuits/exercises.md) · [solutions](subtopics/3.2-logic-gates-and-logic-circuits/solutions.md) · [animation](subtopics/3.2-logic-gates-and-logic-circuits/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

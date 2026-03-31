@@ -340,7 +340,7 @@ High-quality **motion graphics** for intuition: why binary, how place value scal
 
 ## Render
 
-From this folder (`.../data-representation/`):
+From this folder (`.../1.1-data-representation/`):
 
 ```bash
 manim -pql animations/scene.py Topic11TitleCard

@@ -45,8 +45,8 @@
 
         ## Subtopics (full modules)
 
-        - **Purposes of an Operating System** — [notes](subtopics/purposes-of-an-operating-system/notes.md) · [examples](subtopics/purposes-of-an-operating-system/examples.md) · [exercises](subtopics/purposes-of-an-operating-system/exercises.md) · [solutions](subtopics/purposes-of-an-operating-system/solutions.md) · [animation](subtopics/purposes-of-an-operating-system/animation.md) · `animations/scene.py`
-- **Translation Software** — [notes](subtopics/translation-software/notes.md) · [examples](subtopics/translation-software/examples.md) · [exercises](subtopics/translation-software/exercises.md) · [solutions](subtopics/translation-software/solutions.md) · [animation](subtopics/translation-software/animation.md) · `animations/scene.py`
+        - **Purposes of an Operating System** — [notes](subtopics/16.1-purposes-of-an-operating-system/notes.md) · [examples](subtopics/16.1-purposes-of-an-operating-system/examples.md) · [exercises](subtopics/16.1-purposes-of-an-operating-system/exercises.md) · [solutions](subtopics/16.1-purposes-of-an-operating-system/solutions.md) · [animation](subtopics/16.1-purposes-of-an-operating-system/animation.md) · `animations/scene.py`
+- **Translation Software** — [notes](subtopics/16.2-translation-software/notes.md) · [examples](subtopics/16.2-translation-software/examples.md) · [exercises](subtopics/16.2-translation-software/exercises.md) · [solutions](subtopics/16.2-translation-software/solutions.md) · [animation](subtopics/16.2-translation-software/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

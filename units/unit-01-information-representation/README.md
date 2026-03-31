@@ -56,9 +56,9 @@
 
         ## Subtopics (full modules)
 
-        - **Data Representation** — [notes](subtopics/data-representation/notes.md) · [examples](subtopics/data-representation/examples.md) · [exercises](subtopics/data-representation/exercises.md) · [solutions](subtopics/data-representation/solutions.md) · [animation](subtopics/data-representation/animation.md) · `animations/scene.py`
-- **Multimedia — Graphics and Sound** — [notes](subtopics/multimedia-graphics-and-sound/notes.md) · [examples](subtopics/multimedia-graphics-and-sound/examples.md) · [exercises](subtopics/multimedia-graphics-and-sound/exercises.md) · [solutions](subtopics/multimedia-graphics-and-sound/solutions.md) · [animation](subtopics/multimedia-graphics-and-sound/animation.md) · `animations/scene.py`
-- **Compression** — [notes](subtopics/compression/notes.md) · [examples](subtopics/compression/examples.md) · [exercises](subtopics/compression/exercises.md) · [solutions](subtopics/compression/solutions.md) · [animation](subtopics/compression/animation.md) · `animations/scene.py`
+        - **Data Representation** — [notes](subtopics/1.1-data-representation/notes.md) · [examples](subtopics/1.1-data-representation/examples.md) · [exercises](subtopics/1.1-data-representation/exercises.md) · [solutions](subtopics/1.1-data-representation/solutions.md) · [animation](subtopics/1.1-data-representation/animation.md) · `animations/scene.py`
+- **Multimedia — Graphics and Sound** — [notes](subtopics/1.2-multimedia-graphics-and-sound/notes.md) · [examples](subtopics/1.2-multimedia-graphics-and-sound/examples.md) · [exercises](subtopics/1.2-multimedia-graphics-and-sound/exercises.md) · [solutions](subtopics/1.2-multimedia-graphics-and-sound/solutions.md) · [animation](subtopics/1.2-multimedia-graphics-and-sound/animation.md) · `animations/scene.py`
+- **Compression** — [notes](subtopics/1.3-compression/notes.md) · [examples](subtopics/1.3-compression/examples.md) · [exercises](subtopics/1.3-compression/exercises.md) · [solutions](subtopics/1.3-compression/solutions.md) · [animation](subtopics/1.3-compression/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

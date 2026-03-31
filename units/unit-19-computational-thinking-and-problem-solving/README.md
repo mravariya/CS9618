@@ -47,8 +47,8 @@
 
         ## Subtopics (full modules)
 
-        - **Algorithms and Abstract Data Types** — [notes](subtopics/algorithms-and-adts/notes.md) · [examples](subtopics/algorithms-and-adts/examples.md) · [exercises](subtopics/algorithms-and-adts/exercises.md) · [solutions](subtopics/algorithms-and-adts/solutions.md) · [animation](subtopics/algorithms-and-adts/animation.md) · `animations/scene.py`
-- **Recursion** — [notes](subtopics/recursion/notes.md) · [examples](subtopics/recursion/examples.md) · [exercises](subtopics/recursion/exercises.md) · [solutions](subtopics/recursion/solutions.md) · [animation](subtopics/recursion/animation.md) · `animations/scene.py`
+        - **Algorithms and Abstract Data Types** — [notes](subtopics/19.1-algorithms-and-adts/notes.md) · [examples](subtopics/19.1-algorithms-and-adts/examples.md) · [exercises](subtopics/19.1-algorithms-and-adts/exercises.md) · [solutions](subtopics/19.1-algorithms-and-adts/solutions.md) · [animation](subtopics/19.1-algorithms-and-adts/animation.md) · `animations/scene.py`
+- **Recursion** — [notes](subtopics/19.2-recursion/notes.md) · [examples](subtopics/19.2-recursion/examples.md) · [exercises](subtopics/19.2-recursion/exercises.md) · [solutions](subtopics/19.2-recursion/solutions.md) · [animation](subtopics/19.2-recursion/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

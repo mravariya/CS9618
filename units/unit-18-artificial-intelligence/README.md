@@ -39,7 +39,7 @@
 
         ## Subtopics (full modules)
 
-        - **Artificial Intelligence** — [notes](subtopics/artificial-intelligence/notes.md) · [examples](subtopics/artificial-intelligence/examples.md) · [exercises](subtopics/artificial-intelligence/exercises.md) · [solutions](subtopics/artificial-intelligence/solutions.md) · [animation](subtopics/artificial-intelligence/animation.md) · `animations/scene.py`
+        - **Artificial Intelligence** — [notes](subtopics/18.1-artificial-intelligence/notes.md) · [examples](subtopics/18.1-artificial-intelligence/examples.md) · [exercises](subtopics/18.1-artificial-intelligence/exercises.md) · [solutions](subtopics/18.1-artificial-intelligence/solutions.md) · [animation](subtopics/18.1-artificial-intelligence/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

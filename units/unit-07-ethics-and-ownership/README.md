@@ -39,7 +39,7 @@
 
         ## Subtopics (full modules)
 
-        - **Ethics and Ownership** — [notes](subtopics/ethics-and-ownership/notes.md) · [examples](subtopics/ethics-and-ownership/examples.md) · [exercises](subtopics/ethics-and-ownership/exercises.md) · [solutions](subtopics/ethics-and-ownership/solutions.md) · [animation](subtopics/ethics-and-ownership/animation.md) · `animations/scene.py`
+        - **Ethics and Ownership** — [notes](subtopics/7.1-ethics-and-ownership/notes.md) · [examples](subtopics/7.1-ethics-and-ownership/examples.md) · [exercises](subtopics/7.1-ethics-and-ownership/exercises.md) · [solutions](subtopics/7.1-ethics-and-ownership/solutions.md) · [animation](subtopics/7.1-ethics-and-ownership/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

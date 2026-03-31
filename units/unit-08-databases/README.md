@@ -52,9 +52,9 @@
 
         ## Subtopics (full modules)
 
-        - **Database Concepts** — [notes](subtopics/database-concepts/notes.md) · [examples](subtopics/database-concepts/examples.md) · [exercises](subtopics/database-concepts/exercises.md) · [solutions](subtopics/database-concepts/solutions.md) · [animation](subtopics/database-concepts/animation.md) · `animations/scene.py`
-- **Database Management Systems (DBMS)** — [notes](subtopics/database-management-systems/notes.md) · [examples](subtopics/database-management-systems/examples.md) · [exercises](subtopics/database-management-systems/exercises.md) · [solutions](subtopics/database-management-systems/solutions.md) · [animation](subtopics/database-management-systems/animation.md) · `animations/scene.py`
-- **DDL and DML (SQL)** — [notes](subtopics/ddl-and-dml/notes.md) · [examples](subtopics/ddl-and-dml/examples.md) · [exercises](subtopics/ddl-and-dml/exercises.md) · [solutions](subtopics/ddl-and-dml/solutions.md) · [animation](subtopics/ddl-and-dml/animation.md) · `animations/scene.py`
+        - **Database Concepts** — [notes](subtopics/8.1-database-concepts/notes.md) · [examples](subtopics/8.1-database-concepts/examples.md) · [exercises](subtopics/8.1-database-concepts/exercises.md) · [solutions](subtopics/8.1-database-concepts/solutions.md) · [animation](subtopics/8.1-database-concepts/animation.md) · `animations/scene.py`
+- **Database Management Systems (DBMS)** — [notes](subtopics/8.2-database-management-systems/notes.md) · [examples](subtopics/8.2-database-management-systems/examples.md) · [exercises](subtopics/8.2-database-management-systems/exercises.md) · [solutions](subtopics/8.2-database-management-systems/solutions.md) · [animation](subtopics/8.2-database-management-systems/animation.md) · `animations/scene.py`
+- **DDL and DML (SQL)** — [notes](subtopics/8.3-ddl-and-dml/notes.md) · [examples](subtopics/8.3-ddl-and-dml/examples.md) · [exercises](subtopics/8.3-ddl-and-dml/exercises.md) · [solutions](subtopics/8.3-ddl-and-dml/solutions.md) · [animation](subtopics/8.3-ddl-and-dml/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

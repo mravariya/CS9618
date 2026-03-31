@@ -46,8 +46,8 @@
 
         ## Subtopics (full modules)
 
-        - **Data Security** — [notes](subtopics/data-security/notes.md) · [examples](subtopics/data-security/examples.md) · [exercises](subtopics/data-security/exercises.md) · [solutions](subtopics/data-security/solutions.md) · [animation](subtopics/data-security/animation.md) · `animations/scene.py`
-- **Data Integrity** — [notes](subtopics/data-integrity/notes.md) · [examples](subtopics/data-integrity/examples.md) · [exercises](subtopics/data-integrity/exercises.md) · [solutions](subtopics/data-integrity/solutions.md) · [animation](subtopics/data-integrity/animation.md) · `animations/scene.py`
+        - **Data Security** — [notes](subtopics/6.1-data-security/notes.md) · [examples](subtopics/6.1-data-security/examples.md) · [exercises](subtopics/6.1-data-security/exercises.md) · [solutions](subtopics/6.1-data-security/solutions.md) · [animation](subtopics/6.1-data-security/animation.md) · `animations/scene.py`
+- **Data Integrity** — [notes](subtopics/6.2-data-integrity/notes.md) · [examples](subtopics/6.2-data-integrity/examples.md) · [exercises](subtopics/6.2-data-integrity/exercises.md) · [solutions](subtopics/6.2-data-integrity/solutions.md) · [animation](subtopics/6.2-data-integrity/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

@@ -44,8 +44,8 @@
 
         ## Subtopics (full modules)
 
-        - **Programming Paradigms** — [notes](subtopics/programming-paradigms/notes.md) · [examples](subtopics/programming-paradigms/examples.md) · [exercises](subtopics/programming-paradigms/exercises.md) · [solutions](subtopics/programming-paradigms/solutions.md) · [animation](subtopics/programming-paradigms/animation.md) · `animations/scene.py`
-- **File Processing and Exception Handling** — [notes](subtopics/file-processing-and-exception-handling/notes.md) · [examples](subtopics/file-processing-and-exception-handling/examples.md) · [exercises](subtopics/file-processing-and-exception-handling/exercises.md) · [solutions](subtopics/file-processing-and-exception-handling/solutions.md) · [animation](subtopics/file-processing-and-exception-handling/animation.md) · `animations/scene.py`
+        - **Programming Paradigms** — [notes](subtopics/20.1-programming-paradigms/notes.md) · [examples](subtopics/20.1-programming-paradigms/examples.md) · [exercises](subtopics/20.1-programming-paradigms/exercises.md) · [solutions](subtopics/20.1-programming-paradigms/solutions.md) · [animation](subtopics/20.1-programming-paradigms/animation.md) · `animations/scene.py`
+- **File Processing and Exception Handling** — [notes](subtopics/20.2-file-processing-and-exception-handling/notes.md) · [examples](subtopics/20.2-file-processing-and-exception-handling/examples.md) · [exercises](subtopics/20.2-file-processing-and-exception-handling/exercises.md) · [solutions](subtopics/20.2-file-processing-and-exception-handling/solutions.md) · [animation](subtopics/20.2-file-processing-and-exception-handling/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

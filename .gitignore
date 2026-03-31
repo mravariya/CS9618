@@ -3,6 +3,9 @@
 __pycache__/
 .venv_pdf/
 .venv_manim/
+
+# Manim output (re-render locally)
+**/media/
 *.swp
 .idea/
 .vscode/

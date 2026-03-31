@@ -45,8 +45,8 @@
 
         ## Subtopics (full modules)
 
-        - **Computational Thinking Skills** — [notes](subtopics/computational-thinking-skills/notes.md) · [examples](subtopics/computational-thinking-skills/examples.md) · [exercises](subtopics/computational-thinking-skills/exercises.md) · [solutions](subtopics/computational-thinking-skills/solutions.md) · [animation](subtopics/computational-thinking-skills/animation.md) · `animations/scene.py`
-- **Algorithms** — [notes](subtopics/algorithms/notes.md) · [examples](subtopics/algorithms/examples.md) · [exercises](subtopics/algorithms/exercises.md) · [solutions](subtopics/algorithms/solutions.md) · [animation](subtopics/algorithms/animation.md) · `animations/scene.py`
+        - **Computational Thinking Skills** — [notes](subtopics/9.1-computational-thinking-skills/notes.md) · [examples](subtopics/9.1-computational-thinking-skills/examples.md) · [exercises](subtopics/9.1-computational-thinking-skills/exercises.md) · [solutions](subtopics/9.1-computational-thinking-skills/solutions.md) · [animation](subtopics/9.1-computational-thinking-skills/animation.md) · `animations/scene.py`
+- **Algorithms** — [notes](subtopics/9.2-algorithms/notes.md) · [examples](subtopics/9.2-algorithms/examples.md) · [exercises](subtopics/9.2-algorithms/exercises.md) · [solutions](subtopics/9.2-algorithms/solutions.md) · [animation](subtopics/9.2-algorithms/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

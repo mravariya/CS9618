@@ -56,10 +56,10 @@
 
         ## Subtopics (full modules)
 
-        - **Data Types and Records** — [notes](subtopics/data-types-and-records/notes.md) · [examples](subtopics/data-types-and-records/examples.md) · [exercises](subtopics/data-types-and-records/exercises.md) · [solutions](subtopics/data-types-and-records/solutions.md) · [animation](subtopics/data-types-and-records/animation.md) · `animations/scene.py`
-- **Arrays** — [notes](subtopics/arrays/notes.md) · [examples](subtopics/arrays/examples.md) · [exercises](subtopics/arrays/exercises.md) · [solutions](subtopics/arrays/solutions.md) · [animation](subtopics/arrays/animation.md) · `animations/scene.py`
-- **Files** — [notes](subtopics/files/notes.md) · [examples](subtopics/files/examples.md) · [exercises](subtopics/files/exercises.md) · [solutions](subtopics/files/solutions.md) · [animation](subtopics/files/animation.md) · `animations/scene.py`
-- **Introduction to Abstract Data Types (ADT)** — [notes](subtopics/introduction-to-abstract-data-types/notes.md) · [examples](subtopics/introduction-to-abstract-data-types/examples.md) · [exercises](subtopics/introduction-to-abstract-data-types/exercises.md) · [solutions](subtopics/introduction-to-abstract-data-types/solutions.md) · [animation](subtopics/introduction-to-abstract-data-types/animation.md) · `animations/scene.py`
+        - **Data Types and Records** — [notes](subtopics/10.1-data-types-and-records/notes.md) · [examples](subtopics/10.1-data-types-and-records/examples.md) · [exercises](subtopics/10.1-data-types-and-records/exercises.md) · [solutions](subtopics/10.1-data-types-and-records/solutions.md) · [animation](subtopics/10.1-data-types-and-records/animation.md) · `animations/scene.py`
+- **Arrays** — [notes](subtopics/10.2-arrays/notes.md) · [examples](subtopics/10.2-arrays/examples.md) · [exercises](subtopics/10.2-arrays/exercises.md) · [solutions](subtopics/10.2-arrays/solutions.md) · [animation](subtopics/10.2-arrays/animation.md) · `animations/scene.py`
+- **Files** — [notes](subtopics/10.3-files/notes.md) · [examples](subtopics/10.3-files/examples.md) · [exercises](subtopics/10.3-files/exercises.md) · [solutions](subtopics/10.3-files/solutions.md) · [animation](subtopics/10.3-files/animation.md) · `animations/scene.py`
+- **Introduction to Abstract Data Types (ADT)** — [notes](subtopics/10.4-introduction-to-abstract-data-types/notes.md) · [examples](subtopics/10.4-introduction-to-abstract-data-types/examples.md) · [exercises](subtopics/10.4-introduction-to-abstract-data-types/exercises.md) · [solutions](subtopics/10.4-introduction-to-abstract-data-types/solutions.md) · [animation](subtopics/10.4-introduction-to-abstract-data-types/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

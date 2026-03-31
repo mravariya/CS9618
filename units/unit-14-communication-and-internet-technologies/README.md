@@ -45,8 +45,8 @@
 
         ## Subtopics (full modules)
 
-        - **Protocols** — [notes](subtopics/protocols/notes.md) · [examples](subtopics/protocols/examples.md) · [exercises](subtopics/protocols/exercises.md) · [solutions](subtopics/protocols/solutions.md) · [animation](subtopics/protocols/animation.md) · `animations/scene.py`
-- **Circuit Switching and Packet Switching** — [notes](subtopics/circuit-switching-and-packet-switching/notes.md) · [examples](subtopics/circuit-switching-and-packet-switching/examples.md) · [exercises](subtopics/circuit-switching-and-packet-switching/exercises.md) · [solutions](subtopics/circuit-switching-and-packet-switching/solutions.md) · [animation](subtopics/circuit-switching-and-packet-switching/animation.md) · `animations/scene.py`
+        - **Protocols** — [notes](subtopics/14.1-protocols/notes.md) · [examples](subtopics/14.1-protocols/examples.md) · [exercises](subtopics/14.1-protocols/exercises.md) · [solutions](subtopics/14.1-protocols/solutions.md) · [animation](subtopics/14.1-protocols/animation.md) · `animations/scene.py`
+- **Circuit Switching and Packet Switching** — [notes](subtopics/14.2-circuit-switching-and-packet-switching/notes.md) · [examples](subtopics/14.2-circuit-switching-and-packet-switching/examples.md) · [exercises](subtopics/14.2-circuit-switching-and-packet-switching/exercises.md) · [solutions](subtopics/14.2-circuit-switching-and-packet-switching/solutions.md) · [animation](subtopics/14.2-circuit-switching-and-packet-switching/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

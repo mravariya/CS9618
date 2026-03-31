@@ -46,8 +46,8 @@
 
         ## Subtopics (full modules)
 
-        - **Processors, Parallel Processing and Virtual Machines** — [notes](subtopics/processors-parallel-processing-and-virtual-machines/notes.md) · [examples](subtopics/processors-parallel-processing-and-virtual-machines/examples.md) · [exercises](subtopics/processors-parallel-processing-and-virtual-machines/exercises.md) · [solutions](subtopics/processors-parallel-processing-and-virtual-machines/solutions.md) · [animation](subtopics/processors-parallel-processing-and-virtual-machines/animation.md) · `animations/scene.py`
-- **Boolean Algebra and Logic Circuits** — [notes](subtopics/boolean-algebra-and-logic-circuits/notes.md) · [examples](subtopics/boolean-algebra-and-logic-circuits/examples.md) · [exercises](subtopics/boolean-algebra-and-logic-circuits/exercises.md) · [solutions](subtopics/boolean-algebra-and-logic-circuits/solutions.md) · [animation](subtopics/boolean-algebra-and-logic-circuits/animation.md) · `animations/scene.py`
+        - **Processors, Parallel Processing and Virtual Machines** — [notes](subtopics/15.1-processors-parallel-processing-and-virtual-machines/notes.md) · [examples](subtopics/15.1-processors-parallel-processing-and-virtual-machines/examples.md) · [exercises](subtopics/15.1-processors-parallel-processing-and-virtual-machines/exercises.md) · [solutions](subtopics/15.1-processors-parallel-processing-and-virtual-machines/solutions.md) · [animation](subtopics/15.1-processors-parallel-processing-and-virtual-machines/animation.md) · `animations/scene.py`
+- **Boolean Algebra and Logic Circuits** — [notes](subtopics/15.2-boolean-algebra-and-logic-circuits/notes.md) · [examples](subtopics/15.2-boolean-algebra-and-logic-circuits/examples.md) · [exercises](subtopics/15.2-boolean-algebra-and-logic-circuits/exercises.md) · [solutions](subtopics/15.2-boolean-algebra-and-logic-circuits/solutions.md) · [animation](subtopics/15.2-boolean-algebra-and-logic-circuits/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

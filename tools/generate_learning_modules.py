@@ -22,18 +22,25 @@ from generate_units import OBJECTIVES, UNITS  # noqa: E402
 UNITS_DIR = ROOT / "units"
 
 
-def slug_to_class_base(slug: str) -> str:
-    parts = re.split(r"[-_]+", slug)
+def slug_to_class_base(folder: str) -> str:
+    """Strip leading syllabus label (e.g. 1.1-) for valid Python class names."""
+    folder = re.sub(r"^\d+\.\d+-", "", folder)
+    parts = re.split(r"[-_]+", folder)
     return "".join(p[:1].upper() + p[1:] for p in parts if p)
 
 
-def concept_map_ascii(unit_title: str, subtopics: list[tuple[str, str]]) -> str:
+def section_from_folder(folder: str) -> str:
+    m = re.match(r"^(\d+)\.(\d+)-", folder)
+    return f"Section {m.group(1)}.{m.group(2)}" if m else "See syllabus/syllabus.md"
+
+
+def concept_map_ascii(unit_title: str, subtopics: list[tuple[str, str, str]]) -> str:
     lines = [
         f"                    +----------------------+",
         f"                    |   {unit_title[:18]:<18}   |",
         f"                    +----------+-----------+",
     ]
-    for _s, t in subtopics:
+    for _folder, t, _k in subtopics:
         short = t[:22] + ("…" if len(t) > 22 else "")
         lines.append(f"                            |")
         lines.append(f"                     +-----v-----+")
@@ -44,10 +51,10 @@ def concept_map_ascii(unit_title: str, subtopics: list[tuple[str, str]]) -> str:
 
 def unit_readme_enhanced(u: dict) -> str:
     sub_links = "\n".join(
-        f"- **{t}** — [notes](subtopics/{s}/notes.md) · [examples](subtopics/{s}/examples.md) · "
-        f"[exercises](subtopics/{s}/exercises.md) · [solutions](subtopics/{s}/solutions.md) · "
-        f"[animation](subtopics/{s}/animation.md) · `animations/scene.py`"
-        for s, t in u["subtopics"]
+        f"- **{t}** — [notes](subtopics/{folder}/notes.md) · [examples](subtopics/{folder}/examples.md) · "
+        f"[exercises](subtopics/{folder}/exercises.md) · [solutions](subtopics/{folder}/solutions.md) · "
+        f"[animation](subtopics/{folder}/animation.md) · `animations/scene.py`"
+        for folder, t, _ in u["subtopics"]
     )
     sow = u["sow_order"]
     sow_line = (
@@ -59,8 +66,8 @@ def unit_readme_enhanced(u: dict) -> str:
     terms = ", ".join(f"`{t}`" for t in u["key_terms"])
     apps = "\n".join(f"- {a}" for a in u["applications"])
     objectives = []
-    for slug, _st in u["subtopics"]:
-        for line in OBJECTIVES.get(slug, []):
+    for _folder, _st, obj_key in u["subtopics"]:
+        for line in OBJECTIVES.get(obj_key, []):
             objectives.append(f"- {line}")
     obj_block = "\n".join(objectives)
     cmap = concept_map_ascii(u["title"], u["subtopics"])
@@ -126,11 +133,11 @@ def glossary_from_terms(terms: list[str]) -> str:
 def write_notes_full(
     unit_title: str,
     sub_title: str,
-    slug: str,
+    obj_key: str,
     syllabus_section: str,
     key_terms: list[str],
 ) -> str:
-    objs = OBJECTIVES.get(slug, ["Follow the official syllabus for this subtopic."])
+    objs = OBJECTIVES.get(obj_key, ["Follow the official syllabus for this subtopic."])
     obj_bullets = "\n".join(f"- {o}" for o in objs)
     glossary = glossary_from_terms(key_terms[:12])
     rel_anim = f"See [animation.md](animation.md) and render scenes in `animations/scene.py`."
@@ -282,7 +289,7 @@ def write_notes_full(
     ).strip() + "\n"
 
 
-def write_examples_layered(unit_title: str, sub_title: str, slug: str) -> str:
+def write_examples_layered(unit_title: str, sub_title: str, obj_key: str) -> str:
     return dedent(
         f"""\
         # Guided examples — {sub_title}
@@ -328,7 +335,7 @@ def write_examples_layered(unit_title: str, sub_title: str, slug: str) -> str:
     ).strip() + "\n"
 
 
-def write_exercises_scaffolded(sub_title: str, slug: str) -> str:
+def write_exercises_scaffolded(sub_title: str, _obj_key: str) -> str:
     return dedent(
         f"""\
         # Practice — {sub_title}
@@ -396,7 +403,7 @@ def write_solutions_template(sub_title: str) -> str:
     ).strip() + "\n"
 
 
-def write_animation_md(sub_title: str, slug: str, scene_names: list[str]) -> str:
+def write_animation_md(sub_title: str, _obj_key: str, scene_names: list[str]) -> str:
     scenes = "\n".join(f"- `{n}`" for n in scene_names)
     return dedent(
         f"""\
@@ -445,8 +452,8 @@ def write_animation_md(sub_title: str, slug: str, scene_names: list[str]) -> str
     ).strip() + "\n"
 
 
-def generic_scene_py(slug: str, sub_title: str, objectives: list[str]) -> str:
-    base = slug_to_class_base(slug)
+def generic_scene_py(folder: str, sub_title: str, objectives: list[str]) -> str:
+    base = slug_to_class_base(folder)
     primary = f"{base}ModuleOverview"
     safe_title = sub_title.replace('"', "'")[:70]
     assigns = []
@@ -459,7 +466,7 @@ def generic_scene_py(slug: str, sub_title: str, objectives: list[str]) -> str:
     tnames = ", ".join(f"t{i}" for i in range(len(assigns)))
     doc = f'''"""
 Manim scenes for: {sub_title}
-Syllabus subtopic slug: {slug}
+Subtopic folder: {folder}
 Render: manim -pql animations/scene.py {primary}
 """
 from manim import DOWN, LEFT, UP, FadeIn, Scene, Text, VGroup
@@ -495,7 +502,7 @@ def premium_1_1() -> None:
         UNITS_DIR
         / "unit-01-information-representation"
         / "subtopics"
-        / "data-representation"
+        / "1.1-data-representation"
     )
     base.mkdir(parents=True, exist_ok=True)
     (base / "notes.md").write_text(NOTES_MD, encoding="utf-8")
@@ -508,8 +515,8 @@ def premium_1_1() -> None:
     (anim / "scene.py").write_text(SCENE_PY, encoding="utf-8")
 
 
-def scene_names_for(slug: str, sub_title: str) -> list[str]:
-    if slug == "data-representation":
+def scene_names_for(obj_key: str, folder: str) -> list[str]:
+    if obj_key == "data-representation":
         return [
             "Topic11TitleCard",
             "WhyBinaryScene",
@@ -519,7 +526,7 @@ def scene_names_for(slug: str, sub_title: str) -> list[str]:
             "TwosComplementStory",
             "UnicodeMosaic",
         ]
-    base = slug_to_class_base(slug)
+    base = slug_to_class_base(folder)
     return [f"{base}ModuleOverview"]
 
 
@@ -529,40 +536,38 @@ def main() -> None:
         udir.mkdir(parents=True, exist_ok=True)
         (udir / "README.md").write_text(unit_readme_enhanced(u), encoding="utf-8")
         terms = u["key_terms"]
-        mnum = re.match(r"unit-(\d+)-", u["folder"])
-        unit_num = int(mnum.group(1)) if mnum else 0
-        for j, (slug, stitle) in enumerate(u["subtopics"], start=1):
-            if slug == "data-representation":
+        for folder, stitle, obj_key in u["subtopics"]:
+            if obj_key == "data-representation":
                 continue  # premium pass
-            sdir = udir / "subtopics" / slug
+            sdir = udir / "subtopics" / folder
             sdir.mkdir(parents=True, exist_ok=True)
-            sec = f"Section {unit_num}.{j}" if unit_num else "See syllabus/syllabus.md"
+            sec = section_from_folder(folder)
             (sdir / "notes.md").write_text(
-                write_notes_full(u["title"], stitle, slug, sec, terms),
+                write_notes_full(u["title"], stitle, obj_key, sec, terms),
                 encoding="utf-8",
             )
             (sdir / "examples.md").write_text(
-                write_examples_layered(u["title"], stitle, slug),
+                write_examples_layered(u["title"], stitle, obj_key),
                 encoding="utf-8",
             )
             (sdir / "exercises.md").write_text(
-                write_exercises_scaffolded(stitle, slug),
+                write_exercises_scaffolded(stitle, obj_key),
                 encoding="utf-8",
             )
             (sdir / "solutions.md").write_text(
                 write_solutions_template(stitle),
                 encoding="utf-8",
             )
-            names = scene_names_for(slug, stitle)
+            names = scene_names_for(obj_key, folder)
             (sdir / "animation.md").write_text(
-                write_animation_md(stitle, slug, names),
+                write_animation_md(stitle, obj_key, names),
                 encoding="utf-8",
             )
             anim = sdir / "animations"
             anim.mkdir(parents=True, exist_ok=True)
-            objs = OBJECTIVES.get(slug, ["Follow the official syllabus for this subtopic."])
+            objs = OBJECTIVES.get(obj_key, ["Follow the official syllabus for this subtopic."])
             (anim / "scene.py").write_text(
-                generic_scene_py(slug, stitle, objs),
+                generic_scene_py(folder, stitle, objs),
                 encoding="utf-8",
             )
 

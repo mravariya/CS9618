@@ -235,9 +235,9 @@ UNITS: list[dict] = [
         "key_terms": ["binary", "hexadecimal", "BCD", "two's complement", "Unicode", "sampling", "lossy", "lossless", "RLE"],
         "applications": ["Streaming media", "Medical imaging", "Game assets", "Mobile bandwidth"],
         "subtopics": [
-            ("data-representation", "Data Representation"),
-            ("multimedia-graphics-and-sound", "Multimedia — Graphics and Sound"),
-            ("compression", "Compression"),
+            ("1.1-data-representation", "Data Representation", "data-representation"),
+            ("1.2-multimedia-graphics-and-sound", "Multimedia — Graphics and Sound", "multimedia-graphics-and-sound"),
+            ("1.3-compression", "Compression", "compression"),
         ],
     },
     {
@@ -251,7 +251,9 @@ UNITS: list[dict] = [
         "overview": "How devices share data from LANs to the global internet, including models, hardware, and addressing.",
         "key_terms": ["LAN", "WAN", "TCP/IP", "DNS", "URL", "topology", "router", "cloud"],
         "applications": ["Remote learning", "E-commerce", "Video conferencing", "IoT"],
-        "subtopics": [("networks-including-the-internet", "Networks Including the Internet")],
+        "subtopics": [
+            ("2.1-networks-including-the-internet", "Networks Including the Internet", "networks-including-the-internet"),
+        ],
     },
     {
         "folder": "unit-03-hardware",
@@ -265,8 +267,8 @@ UNITS: list[dict] = [
         "key_terms": ["RAM", "ROM", "SRAM", "DRAM", "sensor", "actuator", "logic gate", "truth table"],
         "applications": ["Factory automation", "Wearables", "Autonomous vehicles"],
         "subtopics": [
-            ("computers-and-their-components", "Computers and Their Components"),
-            ("logic-gates-and-logic-circuits", "Logic Gates and Logic Circuits"),
+            ("3.1-computers-and-their-components", "Computers and Their Components", "computers-and-their-components"),
+            ("3.2-logic-gates-and-logic-circuits", "Logic Gates and Logic Circuits", "logic-gates-and-logic-circuits"),
         ],
     },
     {
@@ -281,9 +283,9 @@ UNITS: list[dict] = [
         "key_terms": ["Von Neumann", "fetch-execute", "register", "interrupt", "assembler", "bit shift", "masking"],
         "applications": ["Firmware", "Device drivers", "Performance tuning"],
         "subtopics": [
-            ("cpu-architecture", "Central Processing Unit (CPU) Architecture"),
-            ("assembly-language", "Assembly Language"),
-            ("bit-manipulation", "Bit Manipulation"),
+            ("4.1-cpu-architecture", "Central Processing Unit (CPU) Architecture", "cpu-architecture"),
+            ("4.2-assembly-language", "Assembly Language", "assembly-language"),
+            ("4.3-bit-manipulation", "Bit Manipulation", "bit-manipulation"),
         ],
     },
     {
@@ -298,8 +300,8 @@ UNITS: list[dict] = [
         "key_terms": ["OS", "compiler", "interpreter", "IDE", "library", "DLL"],
         "applications": ["Multi-user servers", "Software development", "System utilities"],
         "subtopics": [
-            ("operating-systems", "Operating Systems"),
-            ("language-translators", "Language Translators"),
+            ("5.1-operating-systems", "Operating Systems", "operating-systems"),
+            ("5.2-language-translators", "Language Translators", "language-translators"),
         ],
     },
     {
@@ -314,8 +316,8 @@ UNITS: list[dict] = [
         "key_terms": ["encryption", "firewall", "malware", "validation", "checksum", "parity"],
         "applications": ["Online banking", "Healthcare records", "E-government"],
         "subtopics": [
-            ("data-security", "Data Security"),
-            ("data-integrity", "Data Integrity"),
+            ("6.1-data-security", "Data Security", "data-security"),
+            ("6.2-data-integrity", "Data Integrity", "data-integrity"),
         ],
     },
     {
@@ -329,7 +331,7 @@ UNITS: list[dict] = [
         "overview": "Professional responsibility, intellectual property, licensing, and the societal impact of computing and AI.",
         "key_terms": ["copyright", "open source", "shareware", "professional ethics", "AI impact"],
         "applications": ["Software licences", "Data consent", "Responsible AI deployment"],
-        "subtopics": [("ethics-and-ownership", "Ethics and Ownership")],
+        "subtopics": [("7.1-ethics-and-ownership", "Ethics and Ownership", "ethics-and-ownership")],
     },
     {
         "folder": "unit-08-databases",
@@ -343,9 +345,9 @@ UNITS: list[dict] = [
         "key_terms": ["primary key", "foreign key", "normalisation", "SQL", "DDL", "DML", "ER diagram"],
         "applications": ["Airline booking", "Library systems", "Inventory"],
         "subtopics": [
-            ("database-concepts", "Database Concepts"),
-            ("database-management-systems", "Database Management Systems (DBMS)"),
-            ("ddl-and-dml", "DDL and DML (SQL)"),
+            ("8.1-database-concepts", "Database Concepts", "database-concepts"),
+            ("8.2-database-management-systems", "Database Management Systems (DBMS)", "database-management-systems"),
+            ("8.3-ddl-and-dml", "DDL and DML (SQL)", "ddl-and-dml"),
         ],
     },
     {
@@ -360,8 +362,8 @@ UNITS: list[dict] = [
         "key_terms": ["abstraction", "decomposition", "pseudocode", "flowchart", "stepwise refinement"],
         "applications": ["Automation", "Business processes", "Scientific computing"],
         "subtopics": [
-            ("computational-thinking-skills", "Computational Thinking Skills"),
-            ("algorithms", "Algorithms"),
+            ("9.1-computational-thinking-skills", "Computational Thinking Skills", "computational-thinking-skills"),
+            ("9.2-algorithms", "Algorithms", "algorithms"),
         ],
     },
     {
@@ -376,10 +378,10 @@ UNITS: list[dict] = [
         "key_terms": ["record", "array", "index", "stack", "queue", "linked list", "ADT"],
         "applications": ["Queues in scheduling", "Grids in games", "Text processing"],
         "subtopics": [
-            ("data-types-and-records", "Data Types and Records"),
-            ("arrays", "Arrays"),
-            ("files", "Files"),
-            ("introduction-to-abstract-data-types", "Introduction to Abstract Data Types (ADT)"),
+            ("10.1-data-types-and-records", "Data Types and Records", "data-types-and-records"),
+            ("10.2-arrays", "Arrays", "arrays"),
+            ("10.3-files", "Files", "files"),
+            ("10.4-introduction-to-abstract-data-types", "Introduction to Abstract Data Types (ADT)", "introduction-to-abstract-data-types"),
         ],
     },
     {
@@ -394,9 +396,9 @@ UNITS: list[dict] = [
         "key_terms": ["variable", "constant", "procedure", "function", "parameter", "loop", "selection"],
         "applications": ["Console utilities", "Data processing", "Embedded logic"],
         "subtopics": [
-            ("programming-basics", "Programming Basics"),
-            ("constructs", "Constructs"),
-            ("structured-programming", "Structured Programming"),
+            ("11.1-programming-basics", "Programming Basics", "programming-basics"),
+            ("11.2-constructs", "Constructs", "constructs"),
+            ("11.3-structured-programming", "Structured Programming", "structured-programming"),
         ],
     },
     {
@@ -411,9 +413,9 @@ UNITS: list[dict] = [
         "key_terms": ["waterfall", "RAD", "structure chart", "black-box testing", "maintenance"],
         "applications": ["Start-up MVPs", "Safety-critical updates", "User acceptance"],
         "subtopics": [
-            ("program-development-lifecycle", "Program Development Life Cycle"),
-            ("program-design", "Program Design"),
-            ("program-testing-and-maintenance", "Program Testing and Maintenance"),
+            ("12.1-program-development-lifecycle", "Program Development Life Cycle", "program-development-lifecycle"),
+            ("12.2-program-design", "Program Design", "program-design"),
+            ("12.3-program-testing-and-maintenance", "Program Testing and Maintenance", "program-testing-and-maintenance"),
         ],
     },
     {
@@ -428,9 +430,9 @@ UNITS: list[dict] = [
         "key_terms": ["enumerated type", "pointer", "hashing", "mantissa", "exponent", "normalisation"],
         "applications": ["Scientific computing", "Large-scale indexes", "Financial systems"],
         "subtopics": [
-            ("user-defined-data-types", "User-defined Data Types"),
-            ("file-organisation-and-access", "File Organisation and Access"),
-            ("floating-point-representation", "Floating-point Representation and Manipulation"),
+            ("13.1-user-defined-data-types", "User-defined Data Types", "user-defined-data-types"),
+            ("13.2-file-organisation-and-access", "File Organisation and Access", "file-organisation-and-access"),
+            ("13.3-floating-point-representation", "Floating-point Representation and Manipulation", "floating-point-representation"),
         ],
     },
     {
@@ -445,8 +447,8 @@ UNITS: list[dict] = [
         "key_terms": ["TCP/IP", "HTTP", "FTP", "packet switching", "circuit switching", "router"],
         "applications": ["CDN", "Email", "P2P distribution"],
         "subtopics": [
-            ("protocols", "Protocols"),
-            ("circuit-switching-and-packet-switching", "Circuit Switching and Packet Switching"),
+            ("14.1-protocols", "Protocols", "protocols"),
+            ("14.2-circuit-switching-and-packet-switching", "Circuit Switching and Packet Switching", "circuit-switching-and-packet-switching"),
         ],
     },
     {
@@ -461,8 +463,8 @@ UNITS: list[dict] = [
         "key_terms": ["RISC", "CISC", "MIMD", "virtual machine", "Karnaugh map", "flip-flop"],
         "applications": ["Cloud data centres", "GPU computing", "CPU design"],
         "subtopics": [
-            ("processors-parallel-processing-and-virtual-machines", "Processors, Parallel Processing and Virtual Machines"),
-            ("boolean-algebra-and-logic-circuits", "Boolean Algebra and Logic Circuits"),
+            ("15.1-processors-parallel-processing-and-virtual-machines", "Processors, Parallel Processing and Virtual Machines", "processors-parallel-processing-and-virtual-machines"),
+            ("15.2-boolean-algebra-and-logic-circuits", "Boolean Algebra and Logic Circuits", "boolean-algebra-and-logic-circuits"),
         ],
     },
     {
@@ -477,8 +479,8 @@ UNITS: list[dict] = [
         "key_terms": ["scheduler", "paging", "thrashing", "lexical analysis", "BNF", "RPN"],
         "applications": ["Server OS tuning", "Language implementation", "Compilers"],
         "subtopics": [
-            ("purposes-of-an-operating-system", "Purposes of an Operating System"),
-            ("translation-software", "Translation Software"),
+            ("16.1-purposes-of-an-operating-system", "Purposes of an Operating System", "purposes-of-an-operating-system"),
+            ("16.2-translation-software", "Translation Software", "translation-software"),
         ],
     },
     {
@@ -492,7 +494,9 @@ UNITS: list[dict] = [
         "overview": "Modern cryptography, secure channels, and trust through certificates and signatures.",
         "key_terms": ["public key", "symmetric", "TLS", "digital certificate", "digital signature"],
         "applications": ["HTTPS e-commerce", "Email signing", "VPN concepts"],
-        "subtopics": [("encryption-and-digital-certificates", "Encryption, Protocols and Digital Certificates")],
+        "subtopics": [
+            ("17.1-encryption-and-digital-certificates", "Encryption, Protocols and Digital Certificates", "encryption-and-digital-certificates"),
+        ],
     },
     {
         "folder": "unit-18-artificial-intelligence",
@@ -505,7 +509,7 @@ UNITS: list[dict] = [
         "overview": "Search on graphs, core machine learning ideas, and how neural methods support intelligent behaviour.",
         "key_terms": ["A*", "Dijkstra", "supervised learning", "neural network", "back propagation"],
         "applications": ["Navigation", "Recommendation", "Computer vision"],
-        "subtopics": [("artificial-intelligence", "Artificial Intelligence")],
+        "subtopics": [("18.1-artificial-intelligence", "Artificial Intelligence", "artificial-intelligence")],
     },
     {
         "folder": "unit-19-computational-thinking-and-problem-solving",
@@ -519,8 +523,8 @@ UNITS: list[dict] = [
         "key_terms": ["binary search", "Big O", "recursion", "binary tree", "ADT implementation"],
         "applications": ["Search engines", "Compilers", "Simulation"],
         "subtopics": [
-            ("algorithms-and-adts", "Algorithms and Abstract Data Types"),
-            ("recursion", "Recursion"),
+            ("19.1-algorithms-and-adts", "Algorithms and Abstract Data Types", "algorithms-and-adts"),
+            ("19.2-recursion", "Recursion", "recursion"),
         ],
     },
     {
@@ -535,8 +539,8 @@ UNITS: list[dict] = [
         "key_terms": ["OOP", "declarative", "inheritance", "exception", "random file"],
         "applications": ["Enterprise apps", "Plugins", "Data pipelines"],
         "subtopics": [
-            ("programming-paradigms", "Programming Paradigms"),
-            ("file-processing-and-exception-handling", "File Processing and Exception Handling"),
+            ("20.1-programming-paradigms", "Programming Paradigms", "programming-paradigms"),
+            ("20.2-file-processing-and-exception-handling", "File Processing and Exception Handling", "file-processing-and-exception-handling"),
         ],
     },
 ]
@@ -673,8 +677,8 @@ def write_exercises(unit_title: str, sub_title: str, slug: str) -> str:
 
 def unit_readme(u: dict) -> str:
     sub_links = "\n".join(
-        f"- [{t}](subtopics/{s}/notes.md) · [examples](subtopics/{s}/examples.md) · [exercises](subtopics/{s}/exercises.md)"
-        for s, t in u["subtopics"]
+        f"- [{t}](subtopics/{folder}/notes.md) · [examples](subtopics/{folder}/examples.md) · [exercises](subtopics/{folder}/exercises.md)"
+        for folder, t, _ in u["subtopics"]
     )
     sow = u["sow_order"]
     sow_line = (
@@ -686,8 +690,8 @@ def unit_readme(u: dict) -> str:
     terms = ", ".join(f"`{t}`" for t in u["key_terms"])
     apps = "\n".join(f"- {a}" for a in u["applications"])
     objectives = []
-    for slug, _st in u["subtopics"]:
-        for line in OBJECTIVES.get(slug, []):
+    for _folder, _st, obj_key in u["subtopics"]:
+        for line in OBJECTIVES.get(obj_key, []):
             objectives.append(f"- {line}")
     obj_block = "\n".join(objectives)
 
@@ -731,12 +735,12 @@ def main() -> None:
         udir = UNITS_DIR / u["folder"]
         udir.mkdir(parents=True, exist_ok=True)
         (udir / "README.md").write_text(unit_readme(u), encoding="utf-8")
-        for slug, stitle in u["subtopics"]:
-            sdir = udir / "subtopics" / slug
+        for folder, stitle, obj_key in u["subtopics"]:
+            sdir = udir / "subtopics" / folder
             sdir.mkdir(parents=True, exist_ok=True)
-            (sdir / "notes.md").write_text(write_notes(u["title"], stitle, slug), encoding="utf-8")
-            (sdir / "examples.md").write_text(write_examples(u["title"], stitle, slug), encoding="utf-8")
-            (sdir / "exercises.md").write_text(write_exercises(u["title"], stitle, slug), encoding="utf-8")
+            (sdir / "notes.md").write_text(write_notes(u["title"], stitle, obj_key), encoding="utf-8")
+            (sdir / "examples.md").write_text(write_examples(u["title"], stitle, obj_key), encoding="utf-8")
+            (sdir / "exercises.md").write_text(write_exercises(u["title"], stitle, obj_key), encoding="utf-8")
     print(f"Generated {len(UNITS)} units under {UNITS_DIR}")
 
 

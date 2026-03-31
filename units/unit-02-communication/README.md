@@ -44,7 +44,7 @@
 
         ## Subtopics (full modules)
 
-        - **Networks Including the Internet** — [notes](subtopics/networks-including-the-internet/notes.md) · [examples](subtopics/networks-including-the-internet/examples.md) · [exercises](subtopics/networks-including-the-internet/exercises.md) · [solutions](subtopics/networks-including-the-internet/solutions.md) · [animation](subtopics/networks-including-the-internet/animation.md) · `animations/scene.py`
+        - **Networks Including the Internet** — [notes](subtopics/2.1-networks-including-the-internet/notes.md) · [examples](subtopics/2.1-networks-including-the-internet/examples.md) · [exercises](subtopics/2.1-networks-including-the-internet/exercises.md) · [solutions](subtopics/2.1-networks-including-the-internet/solutions.md) · [animation](subtopics/2.1-networks-including-the-internet/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

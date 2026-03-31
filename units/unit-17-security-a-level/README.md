@@ -39,7 +39,7 @@
 
         ## Subtopics (full modules)
 
-        - **Encryption, Protocols and Digital Certificates** — [notes](subtopics/encryption-and-digital-certificates/notes.md) · [examples](subtopics/encryption-and-digital-certificates/examples.md) · [exercises](subtopics/encryption-and-digital-certificates/exercises.md) · [solutions](subtopics/encryption-and-digital-certificates/solutions.md) · [animation](subtopics/encryption-and-digital-certificates/animation.md) · `animations/scene.py`
+        - **Encryption, Protocols and Digital Certificates** — [notes](subtopics/17.1-encryption-and-digital-certificates/notes.md) · [examples](subtopics/17.1-encryption-and-digital-certificates/examples.md) · [exercises](subtopics/17.1-encryption-and-digital-certificates/exercises.md) · [solutions](subtopics/17.1-encryption-and-digital-certificates/solutions.md) · [animation](subtopics/17.1-encryption-and-digital-certificates/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

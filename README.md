@@ -26,7 +26,7 @@ World-class, **open-source** learning materials for **Cambridge International AS
 ### Subtopic folder layout
 
 ```text
-units/.../subtopics/<subtopic-name>/
+units/.../subtopics/<section>-<slug>/   (e.g. `1.1-data-representation`)
 ├── notes.md
 ├── examples.md
 ├── exercises.md
@@ -65,7 +65,7 @@ manim -pql animations/scene.py <SceneName>
 Example (Topic 1.1):
 
 ```bash
-cd units/unit-01-information-representation/subtopics/data-representation
+cd units/unit-01-information-representation/subtopics/1.1-data-representation
 manim -pql animations/scene.py Topic11TitleCard
 ```
 

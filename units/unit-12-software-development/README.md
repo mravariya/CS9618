@@ -52,9 +52,9 @@
 
         ## Subtopics (full modules)
 
-        - **Program Development Life Cycle** — [notes](subtopics/program-development-lifecycle/notes.md) · [examples](subtopics/program-development-lifecycle/examples.md) · [exercises](subtopics/program-development-lifecycle/exercises.md) · [solutions](subtopics/program-development-lifecycle/solutions.md) · [animation](subtopics/program-development-lifecycle/animation.md) · `animations/scene.py`
-- **Program Design** — [notes](subtopics/program-design/notes.md) · [examples](subtopics/program-design/examples.md) · [exercises](subtopics/program-design/exercises.md) · [solutions](subtopics/program-design/solutions.md) · [animation](subtopics/program-design/animation.md) · `animations/scene.py`
-- **Program Testing and Maintenance** — [notes](subtopics/program-testing-and-maintenance/notes.md) · [examples](subtopics/program-testing-and-maintenance/examples.md) · [exercises](subtopics/program-testing-and-maintenance/exercises.md) · [solutions](subtopics/program-testing-and-maintenance/solutions.md) · [animation](subtopics/program-testing-and-maintenance/animation.md) · `animations/scene.py`
+        - **Program Development Life Cycle** — [notes](subtopics/12.1-program-development-lifecycle/notes.md) · [examples](subtopics/12.1-program-development-lifecycle/examples.md) · [exercises](subtopics/12.1-program-development-lifecycle/exercises.md) · [solutions](subtopics/12.1-program-development-lifecycle/solutions.md) · [animation](subtopics/12.1-program-development-lifecycle/animation.md) · `animations/scene.py`
+- **Program Design** — [notes](subtopics/12.2-program-design/notes.md) · [examples](subtopics/12.2-program-design/examples.md) · [exercises](subtopics/12.2-program-design/exercises.md) · [solutions](subtopics/12.2-program-design/solutions.md) · [animation](subtopics/12.2-program-design/animation.md) · `animations/scene.py`
+- **Program Testing and Maintenance** — [notes](subtopics/12.3-program-testing-and-maintenance/notes.md) · [examples](subtopics/12.3-program-testing-and-maintenance/examples.md) · [exercises](subtopics/12.3-program-testing-and-maintenance/exercises.md) · [solutions](subtopics/12.3-program-testing-and-maintenance/solutions.md) · [animation](subtopics/12.3-program-testing-and-maintenance/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

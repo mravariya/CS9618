@@ -49,9 +49,9 @@
 
         ## Subtopics (full modules)
 
-        - **Programming Basics** — [notes](subtopics/programming-basics/notes.md) · [examples](subtopics/programming-basics/examples.md) · [exercises](subtopics/programming-basics/exercises.md) · [solutions](subtopics/programming-basics/solutions.md) · [animation](subtopics/programming-basics/animation.md) · `animations/scene.py`
-- **Constructs** — [notes](subtopics/constructs/notes.md) · [examples](subtopics/constructs/examples.md) · [exercises](subtopics/constructs/exercises.md) · [solutions](subtopics/constructs/solutions.md) · [animation](subtopics/constructs/animation.md) · `animations/scene.py`
-- **Structured Programming** — [notes](subtopics/structured-programming/notes.md) · [examples](subtopics/structured-programming/examples.md) · [exercises](subtopics/structured-programming/exercises.md) · [solutions](subtopics/structured-programming/solutions.md) · [animation](subtopics/structured-programming/animation.md) · `animations/scene.py`
+        - **Programming Basics** — [notes](subtopics/11.1-programming-basics/notes.md) · [examples](subtopics/11.1-programming-basics/examples.md) · [exercises](subtopics/11.1-programming-basics/exercises.md) · [solutions](subtopics/11.1-programming-basics/solutions.md) · [animation](subtopics/11.1-programming-basics/animation.md) · `animations/scene.py`
+- **Constructs** — [notes](subtopics/11.2-constructs/notes.md) · [examples](subtopics/11.2-constructs/examples.md) · [exercises](subtopics/11.2-constructs/exercises.md) · [solutions](subtopics/11.2-constructs/solutions.md) · [animation](subtopics/11.2-constructs/animation.md) · `animations/scene.py`
+- **Structured Programming** — [notes](subtopics/11.3-structured-programming/notes.md) · [examples](subtopics/11.3-structured-programming/examples.md) · [exercises](subtopics/11.3-structured-programming/exercises.md) · [solutions](subtopics/11.3-structured-programming/solutions.md) · [animation](subtopics/11.3-structured-programming/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

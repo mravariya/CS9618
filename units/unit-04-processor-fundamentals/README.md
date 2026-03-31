@@ -54,9 +54,9 @@
 
         ## Subtopics (full modules)
 
-        - **Central Processing Unit (CPU) Architecture** — [notes](subtopics/cpu-architecture/notes.md) · [examples](subtopics/cpu-architecture/examples.md) · [exercises](subtopics/cpu-architecture/exercises.md) · [solutions](subtopics/cpu-architecture/solutions.md) · [animation](subtopics/cpu-architecture/animation.md) · `animations/scene.py`
-- **Assembly Language** — [notes](subtopics/assembly-language/notes.md) · [examples](subtopics/assembly-language/examples.md) · [exercises](subtopics/assembly-language/exercises.md) · [solutions](subtopics/assembly-language/solutions.md) · [animation](subtopics/assembly-language/animation.md) · `animations/scene.py`
-- **Bit Manipulation** — [notes](subtopics/bit-manipulation/notes.md) · [examples](subtopics/bit-manipulation/examples.md) · [exercises](subtopics/bit-manipulation/exercises.md) · [solutions](subtopics/bit-manipulation/solutions.md) · [animation](subtopics/bit-manipulation/animation.md) · `animations/scene.py`
+        - **Central Processing Unit (CPU) Architecture** — [notes](subtopics/4.1-cpu-architecture/notes.md) · [examples](subtopics/4.1-cpu-architecture/examples.md) · [exercises](subtopics/4.1-cpu-architecture/exercises.md) · [solutions](subtopics/4.1-cpu-architecture/solutions.md) · [animation](subtopics/4.1-cpu-architecture/animation.md) · `animations/scene.py`
+- **Assembly Language** — [notes](subtopics/4.2-assembly-language/notes.md) · [examples](subtopics/4.2-assembly-language/examples.md) · [exercises](subtopics/4.2-assembly-language/exercises.md) · [solutions](subtopics/4.2-assembly-language/solutions.md) · [animation](subtopics/4.2-assembly-language/animation.md) · `animations/scene.py`
+- **Bit Manipulation** — [notes](subtopics/4.3-bit-manipulation/notes.md) · [examples](subtopics/4.3-bit-manipulation/examples.md) · [exercises](subtopics/4.3-bit-manipulation/exercises.md) · [solutions](subtopics/4.3-bit-manipulation/solutions.md) · [animation](subtopics/4.3-bit-manipulation/animation.md) · `animations/scene.py`
 
         ## Animations (Manim)
 

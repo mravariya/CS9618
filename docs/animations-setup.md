@@ -9,7 +9,13 @@ Manim needs **FFmpeg** on your `PATH`. On many systems you also need **Cairo**, 
 ### macOS (Homebrew example)
 
 ```bash
-brew install ffmpeg pkg-config cairo
+brew install ffmpeg pkgconf cairo pango
+```
+
+On Apple Silicon, if `pip install manim` fails on **pycairo**, point **pkg-config** at Homebrew before pip:
+
+```bash
+export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:${PKG_CONFIG_PATH:-}"
 ```
 
 Then create a virtual environment and install Python packages:
@@ -33,7 +39,7 @@ Install FFmpeg, Visual C++ Build Tools, and Cairo as described in the [Manim Com
 From a subtopic directory (example: Topic 1.1):
 
 ```bash
-cd units/unit-01-information-representation/subtopics/data-representation
+cd units/unit-01-information-representation/subtopics/1.1-data-representation
 manim -pql animations/scene.py Topic11TitleCard
 ```
 
